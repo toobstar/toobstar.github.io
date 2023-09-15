@@ -2,6 +2,8 @@
 title = 'My First Post'
 date = 2023-09-15T17:23:04+10:00
 draft = false
+categories = ['development', 'publishing']
+tags = ['hugo','content']
 +++
 
 ## Introduction
