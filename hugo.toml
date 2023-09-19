@@ -25,8 +25,8 @@ enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Enable Growth through impact and efficiency"
-title404 = "Nothing's here!"
+description = "Enable Growth through Impact and Efficiency"
+title404 = "Not found"
 
 [params.assets]
 favicon = "favicon.ico"
