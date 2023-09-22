@@ -2,3 +2,21 @@
 .sep-after:after {
   width: 80%;
 }
+
+
+/* 
+  @media screen and (max-width: 600px) {
+  img {
+    max-width: 30%;
+  }
+} 
+*/
+
+#content img {
+  border-radius: 5px;
+  /* centre align
+  display: block; 
+  margin: 0 auto; 
+  */
+  max-width: 60%;
+}
