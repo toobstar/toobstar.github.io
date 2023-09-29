@@ -6,14 +6,28 @@ categories = []
 tags = ['risk', 'governance']
 +++
 
-Firstly a formal definition of risk in this context: 
+### Context and why we do it
+
+Templates for managing risk are quite easy to find and tend to be fairly similar to each other.  Practical guidance for how to put a risk methodology into practice are less easy to find.  One challenge is getting buy-in to a process which seemingly replicates existing processes for deciding what to work on.
+
+Firstly a formal definition of risk for this context: 
 > Risk is the effect of uncertainty on the achievement of objectives
 
-Or to put it inversely: if there is an action or event with an uncertain outcome which *would not* impact our plans then we don't need to track it in a formal way. 
+This ties risks that we care are about directly to strategy, and pushes us to consider uncertain outcomes that would impact our ability to achieve our strategic goals.  Or to put it inversely: if there is an action or event with an uncertain outcome which *would not* impact our plans then we don't need to track it in a formal way. 
 
-Secondly all professional services in this context already consider risk in a deliberate way.  Whether it's software development with methods of predicting time to complete a task, or QA processes to find bugs, or product uncertainty with A/B testing or customer interviews.  Each of these processes (and many more) are fundamentally built around addressing an *uncertain outcome that would impact our objectives*.  
+Secondly in general terms all professionls already consider risk in a deliberate way.  Whether it's software engineering with:
+- methods of predicting time to complete a task
+- QA processes to find bugs
 
-A fundamental point of a formal risk management process is to align cross-functionally the various specialised methods of considering risk such that a clear understanding can be had on risks across a business.  The ability for the executive and functional leads to consider risks across the business using a standardised model allows them to be compared, to understand relationships and dependencies more clearly across the business.
+Or Product Managers undertaking: 
+- customer interviews to validate need
+- A/B testing features to understand how they are used  
+
+Each of these processes (and many more) are fundamentally built around addressing an *uncertain outcome that would impact our objectives*.  
+
+### The output of this exercise
+
+The fundamental point of a formal risk management process is to align cross-functionally the various specialised methods of considering risk such that a clear understanding can be had on risks across a business.  The ability for executive and functional leads to consider risks across the business using a standardised model allows them to be compared and to understand  dependencies more clearly across the business.
 
 Further it provides the business with a tool to understand the impediments to achieving it's strategic goals, and to validate whether the efforts of the team are appropriated resources and structured achieve the risk mitigation goals. 
 
@@ -47,7 +61,7 @@ The impact of a risk is easier to assess than the likelihood because we can ofte
 
 A risk matrix will be established where each of the possible ratings for likelihood and impact are used as axis in a matrix and given a weighting (e.g 1 - 5) and the output or classification of the risk the multiplication of these weightings.  
 
-![Risk Matrix](https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_square.jpg)
+![Risk Matrix](/images/risk-matrix.png)
 
 ### Risk Appetite
 
