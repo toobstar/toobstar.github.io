@@ -6,9 +6,24 @@ categories = []
 tags = ['risk', 'governance']
 +++
 
-### Context and why we do it
+### Context 
 
-Templates for managing risk are quite easy to find and tend to be fairly similar to each other.  Practical guidance for how to put a risk methodology into practice are less easy to find.  One challenge is getting buy-in to a process which seemingly replicates existing processes for deciding what to work on.
+Guidance (*templates*) for managing risk are quite easy to find and tend to be fairly similar to each other.  Practical advice for how to put a risk methodology into practice is less easy to come across.  
+
+It's my view that an easy step-by-step guide for implementation is not useful because the appropriate implementation will vary significantly from company to company. Some variables that matter a lot include:
+- how experienced the functional leads are with formal risk practice?
+- the engagement from the board or other external audit bodies to participate?
+- the regulatory environment 
+- the level of cross-functional dependencies across risks (i.e. do risks I own only impact me or do they only impact others?) 
+- the size of the business and the load of work for risk compliance (e.g. are there dedicated risk roles)
+- the risk tolerance of the business
+- the fluidity of the risks and their related treatments
+
+These variables will impact the structure
+
+### Why we do it
+
+One challenge is getting buy-in to a process which seemingly replicates existing processes for deciding what to work on.
 
 Firstly a formal definition of risk for this context: 
 > Risk is the effect of uncertainty on the achievement of objectives
