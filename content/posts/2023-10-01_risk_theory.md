@@ -6,6 +6,8 @@ categories = []
 tags = ['risk', 'governance']
 +++
 
+![Risky Work](/images/caveman_shark2.jpg)
+
 ### Context 
 
 Guidance (*templates*) for managing risk are quite easy to find and tend to be fairly similar to each other.  Practical advice for how to put a risk methodology into practice is less easy to come across.  

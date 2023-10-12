@@ -20,6 +20,8 @@ Note: it's almost impossible to track both types of time spent at the same time.
 
 ## Understanding Business Dynamics
 
+![Getting Clarity](/images/caveman_challenge.jpg)
+
 A business has many constraints around how it develops, sells and delivers services.  These constraints might include access to input materials, or marketing budgets, or many other things, but **for most businesses the primary cost and enabler of success are the people who are engaged to work for it**.    
 
 In order to understand the dynamics of a business you can start with (and go quite far) simply knowing the roles of the team and the organisational structure that they sit within.  For most growing or dynamic businesses each individual will typically be working towards multiple goals and this level of precision is not sufficient to understand it adequately. 
