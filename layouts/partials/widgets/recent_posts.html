@@ -3,7 +3,7 @@
 {{- $lang := .Site.Language.Lang -}}
 {{- $config := ( ( index $configData $lang ) | default $configData ) -}}
 
-{{- $length := ( $config.length | default 5 ) -}}
+{{- $length := ( $config.length | default 15 ) -}}
 {{- $lengthC := ( $config.lengthC | default 1 ) -}}
 
 <section class='widget widget-recent_posts sep-after'>

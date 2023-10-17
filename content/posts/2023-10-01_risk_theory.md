@@ -10,29 +10,26 @@ tags = ['risk', 'governance']
 
 ### Context 
 
-Guidance (*templates*) for managing risk are quite easy to find and tend to be fairly similar to each other.  Practical advice for how to put a risk methodology into practice is less easy to come across.  
+Guidance for managing risk is easy to find and tends to be fairly consistent in approach.  It's largely structured around templates which are straightforward and seemingly adaptable.  But practical advice for how to put a formal risk process into practice is less easy to find.  
 
-It's my view that an easy step-by-step guide for implementation is not useful because the appropriate implementation will vary significantly from company to company. Some variables that matter a lot include:
-- how experienced the functional leads are with formal risk practice?
-- the engagement from the board or other external audit bodies to participate?
+It is likely that a step-by-step guide for implementation is not useful because the optimal implementation will vary significantly from company to company. Variables that matter a lot include:
+- how experienced the leaders in the business are with formal risk practice
+- the engagement from the board or other external audit bodies
 - the regulatory environment 
-- the level of cross-functional dependencies across risks (i.e. do risks I own only impact me or do they only impact others?) 
+- the level of cross-functional dependencies (i.e. do risks I own only impact me or do they also impact others?) 
 - the size of the business and the load of work for risk compliance (e.g. are there dedicated risk roles)
 - the risk tolerance of the business
 - the fluidity of the risks and their related treatments
 
-These variables will impact the structure
-
-### Why we do it
-
-One challenge is getting buy-in to a process which seemingly replicates existing processes for deciding what to work on.
-
-Firstly a formal definition of risk for this context: 
+It is also useful to define a formal definition of risk for this context: 
 > Risk is the effect of uncertainty on the achievement of objectives
 
 This ties risks that we care are about directly to strategy, and pushes us to consider uncertain outcomes that would impact our ability to achieve our strategic goals.  Or to put it inversely: if there is an action or event with an uncertain outcome which *would not* impact our plans then we don't need to track it in a formal way. 
 
-Secondly in general terms all professionls already consider risk in a deliberate way.  Whether it's software engineering with:
+
+### Operational Challenges
+
+One challenge is getting buy-in to a process which appears to replicate existing processes for deciding what to work on.  Many professions already consider risk in a deliberate way.  Whether it's software engineering with:
 - methods of predicting time to complete a task
 - QA processes to find bugs
 
@@ -40,7 +37,10 @@ Or Product Managers undertaking:
 - customer interviews to validate need
 - A/B testing features to understand how they are used  
 
-Each of these processes (and many more) are fundamentally built around addressing an *uncertain outcome that would impact our objectives*.  
+Each of these processes (and many more) are fundamentally built around addressing *uncertain outcomes that would impact our objectives*.  
+
+What we are trying to do at an enterprise risk level is more top-down than bottom-up which means this should be avoided.  If there is a sense that we are recreating existing processes to manage uncertainty then we've probably gone in to too much detail.  It is possible to have functionally specific risk registers and have these roll-up to an enterprise level one if there is a desire to adopt this approach from top to bottom.  This also allows teams to match existing or desired processes to their needs.
+
 
 ### The output of this exercise
 

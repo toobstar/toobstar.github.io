@@ -9,7 +9,7 @@ copyright = ""
 disqusShortname = ""
 googleAnalytics = "G-V15ZTFQZ84"
 
-Paginate = 5
+Paginate = 10
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
