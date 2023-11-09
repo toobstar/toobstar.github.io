@@ -72,7 +72,7 @@ The impact of a risk is easier to assess than the likelihood because we can ofte
 
 A risk matrix will be established where each of the possible ratings for likelihood and impact are used as axis in a matrix and given a weighting (e.g 1 - 5) and the output or classification of the risk the multiplication of these weightings.  
 
-![Risk Matrix](/images/risk-matrix.png)
+![Risk Matrix](https://toobstar.github.io/images/risk-matrix.png)
 
 ### Risk Appetite
 
