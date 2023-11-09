@@ -4,6 +4,6 @@
   {{ end -}}
   {
       "url": "{{ .Permalink }}medium.json",
-      "id": "{{ if .Params.Id }}{{ .Params.Id }}{{end}}"
+      "id": "{{ .Params.title }} - {{ substr .Params.date 0 10 }}"
   }{{ end }}
 ]
