@@ -7,7 +7,7 @@ tags = ['risk', 'governance']
 ID = '7890'
 +++
 
-![Risky Work](/images/caveman_shark2.jpg)
+![Risky Work](https://toobstar.github.io/images/caveman_shark2.jpg)
 
 ### Context 
 

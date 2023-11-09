@@ -20,7 +20,7 @@ Note: it's almost impossible to track both types of time spent at the same time.
 
 ## Understanding Business Dynamics
 
-![Getting Clarity](/images/caveman_challenge.jpg)
+![Getting Clarity](https://toobstar.github.io/images/caveman_challenge.jpg)
 
 A business has many constraints around how it develops, sells and delivers services.  These constraints might include access to input materials, or marketing budgets, or many other things, but **for most businesses the primary cost and enabler of success are the people who are engaged to work for it**.    
 
