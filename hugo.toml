@@ -147,3 +147,13 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[outputFormats]
+  [outputFormats.MediumJSON]
+  baseName = 'medium'
+  isPlainText = true
+  mediaType = 'application/json'
+
+[outputs]
+page = ['HTML', 'MediumJSON']
+section = ['HTML', 'MediumJSON']

@@ -1,0 +1,9 @@
+{{- $source := "" -}}
+{{- $imgtag := "" -}}
+{
+  "title": {{ .Title | jsonify }},
+  "contentFormat": "html",
+  "content": {{ printf "<h1>%s</h1> %s \n %s" .Title .Content $imgtag | jsonify }},
+  "canonicalUrl": {{ .Permalink | jsonify }},
+  "tags": {{ .Params.tags | jsonify }}
+}
