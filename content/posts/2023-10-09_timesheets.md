@@ -2,8 +2,8 @@
 title = 'Timesheets'
 date = 2023-10-09T12:20:44+11:00
 draft = true
-categories = []
 tags = ['timesheets', 'cost tracking', 'budgets']
+revision = 1
 +++
 
 Why would any business use timesheets which are notoriously unpopular and hard to do well?  The main reasons include:

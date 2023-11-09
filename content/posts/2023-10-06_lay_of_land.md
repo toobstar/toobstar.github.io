@@ -2,8 +2,8 @@
 title = '2023 10 06_lay_of_land'
 date = 2023-10-13T10:16:19+11:00
 draft = true
-categories = []
 tags = ['timesheets', 'cost tracking', 'budgets']
+revision = 1
 +++
 
 Across the IT spectrum from operations to security we can see a natural tension that plays out across any organisation.  They represent the veritable accelerator and brake of the engine that drives any modern business.  More practically they can be understood through the organisational chart they sit within.  Typically IT operations is led by the CIO and has a different reporting line into the CEO than security which is led by the CISO and may report to the head of risk if not the CEO.  From a [risk](/tags/risk/) points of view IT operations is a risk owner (taker) whereas security is responsible for compliance.
