@@ -3,7 +3,7 @@ title = 'Risk Management Fundamentals'
 date = 2023-09-26T09:42:54+10:00
 draft = false
 categories = []
-tags = ['risk', 'governance']
+tags = ['risk', 'governance', 'compliance']
 revision = 1
 +++
 
@@ -11,9 +11,9 @@ revision = 1
 
 ### Context 
 
-Guidance for managing risk is easy to find and tends to be fairly consistent in approach.  It's largely structured around templates which are straightforward and seemingly adaptable.  But practical advice for how to put a formal risk process into practice is less obvious but extremely important.  
+Guidance for managing risk is easy to find and tends to be fairly consistent in approach.  It's largely structured around templates which are straightforward and seemingly adaptable.  Practical advice for how to put a formal risk process into operation is less obvious but extremely important.
 
-It is likely that a step-by-step guide for implementation is not useful because the optimal implementation will vary significantly from company to company. Variables that matter a lot include:
+An off the shelf step-by-step guide for rolling out a risk management process is unlikely to be useful because the optimal implementation will vary significantly from company to company. Variables that matter a lot include:
 - how experienced the leaders in the business are with formal risk practice
 - the engagement from the board or other external audit bodies
 - the regulatory environment 
@@ -34,7 +34,7 @@ This ties risks that we care are about directly to strategy, and pushes us to co
 
 An initial hurdle is getting buy-in to an activity which appears to replicate existing processes for deciding what to work on.  Many professions already consider risk in a deliberate way.  Whether it's software engineering with methods of predicting time to complete a task, or how we conduct QA to find bugs.  Or Product Managers undertaking customer interviews to validate need and A/B testing features to understand how they are used.  Each of these processes (and many more) are fundamentally built around addressing *uncertain outcomes that would impact our objectives*.  
 
-What we are trying to do at an enterprise risk level is more top-down than bottom-up.  If there is a sense that we are recreating existing processes to manage uncertainty then we've probably gone in to too much detail.  Where there is motivation for it, it is possible to have functionally specific risk registers and have these roll-up to an enterprise level one.  This also allows teams to utilise existing processes for managing uncertainty where they are well developed or to use a formal risk based approach otherwise.  
+What I've tried to do at an enterprise risk level is to focus on a top-down view rather than a bottom-up one.  If there is a sense that we are recreating existing processes to manage uncertainty then we've probably gone in to too much detail.  Where there is motivation for it, it is possible to have functionally specific risk registers and have these roll-up to an enterprise level one.  This also allows teams to utilise existing processes for managing uncertainty where they are well developed or to use a formal risk based approach otherwise.  
 
 
 ### Outcomes
@@ -43,7 +43,7 @@ A fundamental goal of a formal risk management process is to align cross-functio
 
 Further it provides the business with a tool to understand the impediments to achieving it's strategic goals, and to validate whether the efforts of the team are appropriately resourced and structured to achieve the risk mitigation goals.
 
-It may come to light that areas of uncertainty are not getting sufficient focus, or how risks owned by one team become impediments to another teams goals.  The conversations that follow this analysis put structure behind the cut and thrust of executive engagement we should expect our leadership team to be engaged in.    
+It may come to light that areas of uncertainty are not getting sufficient focus, or how risks owned by one team become impediments to another teams goals.  The conversations that follow this analysis put structure behind the cut and thrust of executive engagement we should expect our leadership team to be handling.    
 
 ## Governance Model
 
@@ -95,15 +95,15 @@ Following the application of treatments the **residual risk** is the updated sta
 
 ### Removal
 
-And finally, when is a risk no longer a risk?  When the uncertain event has played out and the risk is no longer relevant, or the risk has been realised **into an issue**. A risk register should stand separate from issues or other known challenges the business is facing but there will be the temptation to leave these (realised) risks in as historical artefacts. 
+And what to do when is a risk no longer a risk?  When the uncertain event has played out and the risk is no longer relevant, or the risk has been realised **into an issue**. A risk register should stand separate from issues or other known challenges the business is facing but there will be the temptation to leave these (realised) risks in as historical artefacts. 
 
 ### Finally: A question of time
 
-Does a risk register have a start or finish date?  Or is it continuously updated?  This should be considered and influences how the register can be queried.  For example do we care to know:
+Does a risk register have a start or finish date, a regular cadence or is it continuously updated?  This should be considered and influences how the register can be queried.  For example do we care to know:
 
 - What was the status of a risk 6 months ago?  And importantly, how have we progressed since then in our treatment of the risk?  This requires maintaining an initial or point in time risk status but does allow tracking the impact of our risk treatments clearly.
 - What is the risk status today?  This assumes continually (or on a defined cadence) updating the risks to reflect the current position.  
 
-Each question requires work in order to be answered and the ROI may not be there for all cases.  One final thing to be considered deliberately.  
+Each question requires work in order to be answered and the ROI may not be there for all cases.  One final but important element to be considered.
 
 
