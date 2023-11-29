@@ -1,5 +1,5 @@
 +++
-title = 'Timesheets'
+title = 'Timesheets: The good, the bad and the ugly'
 date = 2023-11-09T12:20:44+11:00
 draft = false
 tags = ['timesheets', 'cost tracking', 'budgets', 'CIO']
@@ -8,10 +8,10 @@ revision = 1
 
 ![Getting Clarity](https://toobstar.github.io/images/caveman_challenge.jpg)
 
-Why do businesses adopt timesheets which are notoriously unpopular and hard to do well?  The main reasons are that they answer really important questions that are difficult to do otherwise such as:
+Why do businesses adopt timesheets which are notoriously unpopular and hard to do well?  The main reasons are that they answer important questions that are difficult to decipher otherwise.  These include providing insights on:
 - understanding business dynamics
-- to bill for time spent on an agreed task
-- to understand velocity to complete a task so future work can be better planned out 
+- how to determine cost of time spent on an agreed task
+- understanding velocity to complete a task so future work can be better planned out 
 - tracking sustainable work practices and utilisation
 
 ## Understanding Business Dynamics
@@ -20,9 +20,9 @@ A business has many constraints around how it develops, sells and delivers servi
 
 In order to understand the dynamics of a business you can start with (and go quite far) simply knowing the roles of the team and the organisational structure that they sit within.  For most growing or dynamic businesses each individual will typically be working towards multiple goals and this level of precision is not sufficient to understand it adequately. 
 
-A basic mental model for costs in a business is that some costs are fairly stable and some costs are dynamic and depend on a variable that may or may not be directly connected to revenue.  As an example for a company that processes data, large amounts of data are more expensive to process than small amounts of data all else being equal.  Or for a business where a person is required to close a sale, the cost of sales overall is variable and tied to the cost of people to fulfil this. 
+A standard model for costs in a business is that some are stable and some are dynamic and they depend on a variable that may or may not be directly connected to revenue.  As a simplistic example for a company that processes data, large amounts of data are more expensive to process than small amounts of data (all else being equal).  Or for a business where a person is required to close a sale, the cost of sales overall is variable and tied to the cost of people to fulfil this. 
 
-The reason this distinction is important is that in order to understand the growth potential of a business these dynamics between costs and revenue are required to be understood.  It should also be obvious that outputs which depend on inputs can only scale so far as those inputs are available.  Which for the cases where the inputs are people, then those limits are more apparent (*and important*) than in other businesses. 
+The reason these distinctions are important is that in order to understand the growth potential of a business the dynamics between cost and revenue need to be understood.  It should also be obvious that outputs which depend on inputs can only scale so far as those inputs are available.  Which for the cases where the inputs are people, then those limits are more apparent (*and important*) than in other businesses. 
 
 A standard breakdown of employee time is to split time spent between:
 - general and administrative work (G&A)
@@ -37,11 +37,11 @@ A general benchmark for gross profit margin for professional services businesses
 
 Some professions bill by time and an optimal time-sheeting solution for them is quite different than that of *regular* companies. From an operational point of view it is a much simpler implementation to assume that every minute of the day is accounted for and not have to complicate things further than that. 
 
-For other companies a decision has to be made about all the various activities that are done in a day outside of *the real work* such as lunch, meetings, training or sick leave to mention just a few. Are these kept separate from regular tasks (e.g. as "admin") or built into the cost of doing business.  Unless there is a reason to be tracking *admin* tasks (which is a reasonable thing to want to do such as how much training was run across the organisation) it is simpler to just fold admin tasks into whatever the dominant tasks was for the period.  The alternative is to track it separately (which is more work) and it just get's folded into the cost of an employee anyway at the end of the day.  So unless you need to know leave taken, or how much time was spent in meetings, my recommendation is to just treat admin tasks as part of the dominant activity where possible.  It's less work up-front (meaning data quality *should* be higher) and when reporting later (with fewer adjustments to get to true cost). 
+For other companies a decision has to be made about all the various activities that are done in a day outside of *the real work* such as lunch, meetings, training or sick leave to mention just a few. Are these kept separate from regular tasks (e.g. as "admin") or built into the cost of doing business.  Unless there is a reason to be tracking *admin* tasks (which is a reasonable thing to want to do such as how much training was run across the organisation) it is simpler to just fold admin tasks into whatever the dominant tasks was for the period.  The alternative is to track it separately (which is more work) and it just get's folded into the cost of an employee anyway at the end of the day.  So unless you need to know leave taken, or how much time was spent in meetings, my recommendation is to just treat admin tasks as part of the dominant activity where possible.  It's less work up-front when entering data (meaning data quality *should* be higher) and also when reporting later (with fewer adjustments to get to true cost where that is required). 
 
 ## Planning Work
 
-Tracking time taken to complete past work is often used to forecast time to be taken for future work.  In some businesses or professions this is quite accurate whereas others are notoriously inaccurate.  For those such as software development which tend to be at the less accurate end of the scale most teams don't try and get an accurate answer.  They use agile methodologies, and story points with fibonacci scales or t-shirt sizing that deliberately limits the ability to predict the work taken to complete larger tasks. For this sort of work time-sheets are not a practical tool for predicting time to complete a future task.  Perhaps in the aggregate they are more effective but care should be taken even then.
+Tracking time taken to complete past work is often used to forecast time to be taken for future work.  In some businesses or professions (with more consistency in their activities) this is quite accurate whereas others are notoriously inaccurate.  For domains like software development which are at the less accurate end of the scale teams deliberately don't try to get an accurate answer.  They use agile methodologies, and story points with fibonacci scales or t-shirt sizing that deliberately limits the ability to predict the work taken to complete larger tasks. For this sort of work time-sheets are not a practical tool for predicting time to complete a future task.  Perhaps in a sufficiently abstract aggregate they are somewhat effective but care should be taken even then.
 
 For work which is more repeatable, with fewer unknowns, past experience can be a more useful guide for forecasting.  And particularly in the case with external stakeholders (such as customers expecting a deliverable) on a schedule the ability to forecast accurately is hugely important for a business.  This is essentially an exercise in filling the work pipeline most optimally.
 
@@ -65,7 +65,7 @@ Note: it's almost impossible to track both types of time spent at the same time.
 
 #### High Quality Data
 
-Maintaining high quality data is crucial for timesheets to be of value.  The [proverbial bad apple](https://www.npr.org/2011/05/09/136017612/bad-apple-proverbs-theres-one-in-every-bunch) real does spoil the apple cart and once trust is lost it's hard to restore. There needs to be continuous focus on validating the data through visible reporting or spot checks to maintain this compliance and quality.  This feedback loop of reporting drives improved quality with the people entering time have a shared and improved understanding of how that information is used. 
+Maintaining high quality data is crucial for timesheets to be of value.  The [proverbial bad apple](https://www.npr.org/2011/05/09/136017612/bad-apple-proverbs-theres-one-in-every-bunch) real does spoil the apple cart and once trust is lost it's hard to restore. There needs to be continuous focus on validating the data through visible reporting or spot checks to maintain this compliance to quality.  This feedback loop of reporting drives improved quality when the people carrying the burden of entering time have a shared and improved understanding of how that information is used. 
 
 #### Work with people rather than against them
 
@@ -85,9 +85,9 @@ It's often not known how to categorise a task or a task may evolve over time fro
 
 #### No task is an island
 
-Similar to the challenges of categorisation, most modern work depends on collaboration and team work.  A good assessment of costs should account for meetings, work done in groups, training, reporting and all the other elements that make up a high-performing work environment.   Which is to say a time-sheeting output should not punish team work or helping others such that individual performance appears compromised. 
+Similar to the challenges of categorisation, most modern work depends on collaboration and team work.  A good assessment of costs should account for meetings, work done in groups, training, reporting and all the other elements that make up a high-performing work environment.   Which is to say a time-sheeting output should not punish teamwork or helping others such that individual performance appears compromised. 
 
 ## Summary
 
-Overall the challenges of time-sheets are many.  They require significant buy-in to get up and running and continuous effort to maintain and monitor.  Care should be taken before embarking on such an initiative and where possible consider opportunities to automate data-collection to avoid the perils of human error.
+Overall the challenges of time-sheets are many.  They require significant buy-in to get up and running and continuous effort to maintain and monitor.  Care should be taken before embarking on such an initiative and where possible consider opportunities to automate data-collection to avoid the inevitability of human error and lack of enthusiam over time.
 
