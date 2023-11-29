@@ -1,6 +1,6 @@
 +++
 title = 'Risk Management Fundamentals'
-date = 2023-09-26T09:42:54+10:00
+date = 2023-10-26T09:42:54+10:00
 draft = false
 categories = []
 tags = ['risk', 'governance', 'compliance']

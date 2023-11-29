@@ -1,26 +1,20 @@
 +++
 title = 'Timesheets'
-date = 2023-10-09T12:20:44+11:00
-draft = true
-tags = ['timesheets', 'cost tracking', 'budgets']
+date = 2023-11-09T12:20:44+11:00
+draft = false
+tags = ['timesheets', 'cost tracking', 'budgets', 'CIO']
 revision = 1
 +++
 
-Why would any business use timesheets which are notoriously unpopular and hard to do well?  The main reasons include:
+![Getting Clarity](https://toobstar.github.io/images/caveman_challenge.jpg)
+
+Why do businesses adopt timesheets which are notoriously unpopular and hard to do well?  The main reasons are that they answer really important questions that are difficult to do otherwise such as:
 - understanding business dynamics
 - to bill for time spent on an agreed task
 - to understand velocity to complete a task so future work can be better planned out 
 - tracking sustainable work practices and utilisation
 
-In all cases it's important to be deliberate about whether we are tracking (1) the cost to the business (e.g. the overall cost of an employee) versus (2) some external representation of the value delivered by that person's work (e.g. an hourly rate for an employee multiplied by hours spent).  Language used to navigate this includes the effective rate, or billable hours, or utilisation of an individual but these terms all basically comes down to the same concern of navigating an internal versus external cost view. 
-
-If the decision is made to track the cost to the business (and assuming no overtime is paid which is typical in my experience) it's simpler to consider that as a percentage of a whole day.  E.g. 25% or 50% of a day. Where the external representation is preferred then hours or minutes can be used, but this requires more work for those entering their time, which can reduce data-quality if not done properly.
-
-Note: it's almost impossible to track both types of time spent at the same time.  A more reasonable solution is some translation as required between the two approaches. 
-
 ## Understanding Business Dynamics
-
-![Getting Clarity](https://toobstar.github.io/images/caveman_challenge.jpg)
 
 A business has many constraints around how it develops, sells and delivers services.  These constraints might include access to input materials, or marketing budgets, or many other things, but **for most businesses the primary cost and enabler of success are the people who are engaged to work for it**.    
 
@@ -56,6 +50,18 @@ For work which is more repeatable, with fewer unknowns, past experience can be a
 It's possible that timesheets can be used to monitor overtime or utilisation, but due to the subjective nature of task categorisation, or perceptions around commitment this can be tricky to achieve success with.  It most likely requires a minutes/hours based tracking method rather than a % of day based one (although I suppose you could indicate you worked 125% of a day).  Where possible it makes more sense to me to track this through conversations between team and manager to cut through the subjective nature of this. 
 
 ## Practical Concerns and General Tips
+
+#### How are we counting time?
+
+In all cases it's important to be deliberate about whether we are tracking:
+1. the cost to the business (e.g. the overall cost of an employee) or 
+2. some external representation of the value delivered by that person's work (e.g. an hourly rate for an employee multiplied by hours spent).  
+Language used to navigate this includes the effective rate, or billable hours, or utilisation of an individual but these terms all basically comes down to the same concern of navigating an internal versus external cost view. 
+
+If the decision is made to track the cost to the business (and assuming no overtime is paid which is typical in my experience) it's simpler to consider that as a percentage of a whole day.  E.g. 25% or 50% of a day. Where the external representation is preferred then hours or minutes can be used, but this requires more work for those entering their time, which can reduce data-quality if not done properly.
+
+Note: it's almost impossible to track both types of time spent at the same time.  A more reasonable solution is some translation as required between the two approaches. 
+
 
 #### High Quality Data
 
