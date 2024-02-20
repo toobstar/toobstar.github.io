@@ -1,6 +1,6 @@
 baseURL = 'https://toobstar.github.io/'
 languageCode = 'en-us'
-title = 'Cloud IT & Security Practice'
+title = 'Cloud Native IT & Security Practice'
 theme = 'minimo'
 
 # for smart copyright line, leave this blank and check [params.copyright]
