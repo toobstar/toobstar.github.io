@@ -1,8 +1,8 @@
 +++
 title = 'Modern Authentication'
-date = 2024-02-20T15:40:44+11:00
-draft = true
-tags = ['authentication', 'CISO']
+date = 2024-01-20T15:40:44+11:00
+draft = false
+tags = ['authentication', 'CISO', 'MFA']
 revision = 1
 +++
 
@@ -41,6 +41,12 @@ All of these approaches provide a significant uplift in security standard in com
 
 ### Current Best Practice
 
-Thankfully we are getting convergence in the last few years on modern techniques known as **passwordless** authentication.  This "recent phenomenon" ([10 years in the making](https://fidoalliance.org/overview/history/)) is breaking into the mainstream via **passkey** implementations from [Apple](https://support.apple.com/en-au/guide/iphone/iphf538ea8d0/ios), [Google](https://blog.google/technology/safety-security/the-beginning-of-the-end-of-the-password/) and [Microsoft](https://www.microsoft.com/en-us/security/business/solutions/passwordless-authentication).  This allows your device (e.g phone, tablet or laptop) to utilise in-built biometric capabilities to provide a secure and private authentication on a trusted platform to a un-trusted 3rd party without revealing your private information.  This is a huge win as both the security outcome and the user experience is excellent.
+Thankfully we are getting convergence in the last few years on modern techniques known as **passwordless** authentication.  This *recent phenomenon* ([10 years in the making](https://fidoalliance.org/overview/history/)) is breaking into the mainstream via **passkey** implementations from [Apple](https://support.apple.com/en-au/guide/iphone/iphf538ea8d0/ios), [Google](https://blog.google/technology/safety-security/the-beginning-of-the-end-of-the-password/) and [Microsoft](https://www.microsoft.com/en-us/security/business/solutions/passwordless-authentication).  This allows your device (e.g phone, tablet or laptop) to utilise in-built biometric capabilities to provide a secure and private authentication on a trusted platform to an un-trusted 3rd party without revealing your private information.  This is a huge win as both the security outcome and the user experience (UX) are excellent.
 
-As a user our deep relationship with these trusted partners (the Googles and Apples) may cause anxiety with respect to privacy but it allows them the opportunity to provide an incredibly powerful additional security capability.  Given they know what devices we use, when we work, where we live etc. they can discern what is likely to be a legitimate activity from a problematic one and act accordingly.  This capability is variously known as 'context aware access' or 'suspicious activity detection' or what I prefer to know as 'risk based authentication.
+As an individual our deep relationship with these mego-corporations (the Googles and Apples) may cause anxiety with respect to privacy but it allows them the opportunity to provide an incredibly powerful additional security capability.  Given they know what devices we use, when we work, where we live etc. they can discern what is likely to be a legitimate activity from a problematic one and act accordingly.  This capability is variously known as **'context aware access'** or **'suspicious activity detection'** or **'risk based authentication'**.  Because it happens transparently again it's very user friendly and can provide an excellent complement to other security measures.  
+
+In an enterprise environment this can be combined with a device management capability (MDM) to validate that the device is encrypted and up to date as an additional risk input to determine if the source of authentication is legitimate.  Similarly the network itself can be an input via a VPN controlled access or through a zero-trust networking model that provides continuous re-validation of credentials with every interaction.  
+
+Ultimately we are transitioning into a more user-friendly and secure mode of working which should be to the benefit of everyone.
+
+
