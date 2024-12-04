@@ -12,21 +12,27 @@ revision = 1
 
 In a domain with significant uncertainty and complexity such as cybersecurity a common approach taken by organisations to determine what action should be taken is to ask where they stand compared to others? Essentially *are we ahead or behind expectations for an organisation like ours*? This approach of determining norms and *staying within the lane* is a reasonable heuristic when entering a domain without subject matter experts familiar with the organisation.
 
-A common way to determine this positioning is to consider how **mature** the organisation is across the key drivers of cybersecurity risk.  Those being:
+A useful way to determine this positioning is to consider how **mature** the organisation is across the key drivers of cybersecurity risk.  Those being:
 
 - **People**: The behaviour and knowledge of the team 
 - **Processes**: The nature of the work that the team undertakes (e.g. how complex or repeatable it is)
-- **Technology**: The tools and infrastructure in place that enables them to do this work
+- **Systems**: The tools and infrastructure in place that enables them to do this work
 
 Where the risks govern the ability of the organisation to maintain the **confidentiality**, **integrity** and **availability** ([CIA](https://en.wikipedia.org/wiki/Information_security)) of their information assets. In my analysis of cybersecurity maturity I've defined 3 broad levels of progression:
 
-- **Level 1: Basic.** This doesn't necessarily mean no progress, but could indicate a lack of central control, formality or repeatability to solutions in place to address risks.
-- **Level 2: Initial.**  Consideration has been given by an authority within the organisation, and solutions may be in place that have been developed for the purpose if risk mitigation, but they may be specific to a team or function. They may also lack formality and oversight which results in variable outcomes.
-- **Level 3: Best practice.**  This indicates that research has been done to determine the optimal solution for the organisation, it has been documented, and relevant processes are being followed for implementation and oversight. Also that the solutions in place are being reconsidered on a regular basis. 
+#### Level 1: Basic
+This doesn't necessarily mean no progress, but could indicate a lack of central control, formality or repeatability to solutions in place to address risks.
 
-### People
+#### Level 2: Improved
+Consideration has been given by an authority within the organisation, and solutions may be in place that have been developed for the purpose if risk mitigation, but they may be specific to a team or function. They may also lack formality and oversight which results in variable outcomes.
 
-|           | Level 1: Basic                                                                         | Level 2: Initial                                                      | Level 3: Best practice                                                                                                       |
+#### Level 3: Best practice
+This indicates that research has been done to determine the optimal solution for the organisation, it has been documented, and relevant processes are being followed for implementation and oversight. Also that the solutions in place are being reconsidered on a regular basis. 
+
+
+## People
+
+|           | Level 1: Basic                                                                         | Level 2: Improved                                                      | Level 3: Best practice                                                                                                       |
 | --------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Knowledge | No formal assessment of knowledge                                                      | Self directed training                                                | Mandatory scheduled training                                                                                                 |
 |           | No formal consideration has been given to key assets / risks / threats to the business | Limited understanding of key assets / risks / threats to the business | Broad understanding of key assets / risks / threats to the business                                                          |
@@ -34,9 +40,9 @@ Where the risks govern the ability of the organisation to maintain the **confide
 
 
 
-### Processes
+## Processes
 
-|                        | Level 1: Basic                                                                           | Level 2: Initial                                           | Level 3: Best practice                                                                                                                         |
+|                        | Level 1: Basic                                                                           | Level 2: Improved                                           | Level 3: Best practice                                                                                                                         |
 | ---------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Change Management      | No paper trail for changes in configuration which impact access or risk                  | Changes are documented for who / why / what                | Audits are done on who has access to what and why                                                                                              |
 | Access Control         | To ensure no barriers to work maximal access (e.g. admin level) provided by default      | Access is granted when requested                           | Least privilege access                                                                                                                         |
@@ -48,9 +54,9 @@ Where the risks govern the ability of the organisation to maintain the **confide
 | Continuous Improvement | After incidents there is no formal process to learn in order to avoid repeat occurrences | Domain specific review are undertaken in an ad hoc manner  | Formal processes for retrospective, improvement are in place (e.g. Plan-Do-Check-Act Principle PDCA or Corrective and Preventive Actions CAPA) |
 
 
-### Tools
+## Systems
 
-|                      | Level 1: Basic                                                            | Level 2: Initial                                                                                        | Level 3: Best practice                                                                      |
+|                      | Level 1: Basic                                                            | Level 2: Improved                                                                                        | Level 3: Best practice                                                                      |
 | -------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | Identity Mgt         | Fragmented silos with no central control or oversight                     | Centralised directory management                                                                        | Automated provisioning based on role for on/off boarding                                    |
 | Authentication       | No central control or oversight                                           | Password Management                                                                                     | Passwordless                                                                                |
