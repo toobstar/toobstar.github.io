@@ -13,7 +13,7 @@ With modern tooling SaaS can be up and running very quickly and easily but but t
 
 ## Defining the S in SaaS
 
-To start with a simple definition though, an organisation may have a readily identifiable service which is their principle offering.  Beneath the hood there may be many independent applications which operate together to enable the offering.  A modern architecture known as [micro-services](https://en.wikipedia.org/wiki/Microservices) is commonly used which results in a proliferation of services and from a maturity point of view they could be at varying points along the maturity spectrum.  It's easy to anticipate that as a product matures from prototype to launch and then scale, we expect the delivery maturiy to also progress in a similar cadence. 
+To start with a simple definition though, an organisation may have a readily identifiable service which is their principle offering.  Beneath the hood there may be many independent applications which operate together to enable the offering.  A modern architecture known as [micro-services](https://en.wikipedia.org/wiki/Microservices) is commonly used which results in a proliferation of services and from a maturity point of view they could be at varying points along the maturity spectrum.  
 
 ## What are the attributes of a mature service?  
 
@@ -26,6 +26,12 @@ Defining a specification for service maturity for a live system might feel like 
 Modern cloud providers have their guidance for what well-architected services look like (such as [AWS](https://aws.amazon.com/architecture/well-architected/) or [Azure](https://learn.microsoft.com/en-us/azure/well-architected/)) and although these are useful for sure they only provide the cloud view of service maturity and not one which will generally cover off the needs of business operations. 
 
 ![roadmap](https://toobstar.github.io/images/caveman_map_car.jpeg)
+
+## Is there a correct level of maturity?
+
+Actually no, the progress to maturiy should simply match what's appropriate for that service in that context.  Getting to maturity consumes time and money, and like any investment doing so too early can result in wasted resources. It's easy to anticipate that as a product matures from prototype to launch and then scale, we expect the delivery maturiy to also progress in a similar cadence. 
+
+## The 8 Focus Areas
 
 What follows is my proposed starting point for that roadmap to enable the pathway to maturity.  There are 8 areas of focus and a number of elements within each that could be scored to create a heapmap of progress for each service or overall for the organisation.  
 
