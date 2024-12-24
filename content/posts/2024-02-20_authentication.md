@@ -48,6 +48,3 @@ As an individual our deep relationship with these mego-corporations (the Googles
 In an enterprise environment this can be combined with a device management capability (MDM) to validate that the device is encrypted and up to date as an additional risk input to determine if the source of authentication is legitimate.  Similarly the network itself can be an input via a VPN controlled access or through a zero-trust networking model that provides continuous re-validation of credentials with every interaction.  
 
 Ultimately we are transitioning into a more user-friendly and secure mode of working which should be to the benefit of everyone.
-
-
-gmail
