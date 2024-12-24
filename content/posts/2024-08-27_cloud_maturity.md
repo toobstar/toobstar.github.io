@@ -11,6 +11,10 @@ revision = 1
 
 With modern tooling SaaS can be up and running very quickly and easily but but the journey to **maturity** can be a long and winding one. My goal with this overview is to run through the operational differences between a mature and immature service and the key areas to be considered to progress through that divide. 
 
+## Defining the S in SaaS
+
+To start with a simple definition though, an organisation may have a readily identifiable service which is their principle offering.  Beneath the hood there may be many independent applications which operate together to enable the offering.  A modern architecture known as [micro-services](https://en.wikipedia.org/wiki/Microservices) is commonly used which results in a proliferation of services and from a maturity point of view they could be at varying points along the maturity spectrum.  It's easy to anticipate that as a product matures from prototype to launch and then scale, we expect the delivery maturiy to also progress in a similar cadence. 
+
 ## What are the attributes of a mature service?  
 
 That would include the service covering off the requirements of all functions of a modern business (finance, marketing, commercial, product, engineering etc) whilst facilitating the growth and constant change a service is expected to accomodate, being dependent on unreliable and changing 3rd party services to run, in as efficient and cost effective manner as possible.  For a technical operational service owner the focus will most naturally be on deploying new releases ('the build pipeline'), performance, cost and (if we're lucky) security.  These are all critical concerns and ones the technical service manager is the principle stakeholder for, but at a holistic organisational level, there are other questions and demands the business will have of a service which it's important to also cover off. 
