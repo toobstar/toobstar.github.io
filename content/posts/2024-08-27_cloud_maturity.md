@@ -9,7 +9,7 @@ revision = 1
 
 ![Research](https://toobstar.github.io/images/caveman_bicycle.jpg)
 
-With modern tooling SaaS can be up and running very quickly and easily but but the journey to **maturity** can be a long and winding one. My goal with this overview is to run through the operational differences between a mature and immature service and the key areas to be considered to progress through that divide. 
+With modern tooling SaaS can be up and running very quickly and easily but the journey to **maturity** can be a long and winding one. My goal with this overview is to run through the operational differences between a mature and immature service and the key areas to be considered to progress through that divide. 
 
 ## Defining the S in SaaS
 
@@ -21,7 +21,7 @@ That would include the service covering off the requirements of all functions of
 
 ## Creating a roadmap whilst the journey is underway
 
-Defining a specification for service maturity for a live system might feel like working out a roadmap for a trip whilst already underway but it's a natural approach as it can be optimally done only with an understanding of actual operational demands. It is an important step for every organisation in progressing to an operational state which can provide certainty in a highly dynamic environment.  Each organisation will have a different view on what maturity looks like and will put different weights on different elements of that map.  And of course, these operational requirements will change over time so the specifically should be maintained on a regular basis. 
+Defining a specification for service maturity for a live system might feel like working out a roadmap for a trip whilst already underway but it's a natural approach as it can be optimally done only with an understanding of actual operational demands. It is an important step for every organisation in progressing to an operational state which can provide certainty in a highly dynamic environment.  Each organisation will have a different view on what maturity looks like and will put different weights on different elements of that map.  And of course, these operational requirements will change over time so they should be maintained on a regular basis. 
 
 Modern cloud providers have their guidance for what well-architected services look like (such as [AWS](https://aws.amazon.com/architecture/well-architected/) or [Azure](https://learn.microsoft.com/en-us/azure/well-architected/)) and although these are useful for sure they only provide the cloud view of service maturity and not one which will generally cover off the needs of business operations. 
 
@@ -29,11 +29,11 @@ Modern cloud providers have their guidance for what well-architected services lo
 
 ## Is there a correct level of maturity?
 
-Actually no, the progress to maturiy should simply match what's appropriate for that service in that context.  Getting to maturity consumes time and money, and like any investment doing so too early can result in wasted resources. It's easy to anticipate that as a product matures from prototype to launch and then scale, we expect the delivery maturiy to also progress in a similar cadence. 
+Actually no, the progress to maturity should simply match what's appropriate for that service in that context.  Getting to maturity consumes time and money, and like any investment doing so too early can result in wasted resources. It's easy to anticipate that as a product matures from prototype to launch and then scale, we expect the delivery maturity to also progress in a similar cadence. 
 
 ## The 8 Focus Areas
 
-What follows is my proposed starting point for that roadmap to enable the pathway to maturity.  There are 8 areas of focus and a number of elements within each that could be scored to create a heapmap of progress for each service or overall for the organisation.  
+What follows is my proposed starting point for that roadmap to enable the pathway to maturity.  There are 8 areas of focus and a number of elements within each that could be scored to create a heat map of progress for each service or overall for the organisation.  
 
 1. Functional
 1. Monitoring and Alerting
@@ -78,7 +78,7 @@ In order to have confidence the service is fulfilling its commitments there must
 ## Focus Area 3: System Reliability Engineering (SRE)
 
 #### Why?
-This focus area probably requires the least explanation except to clarify that I have chosen to take a narrower intepretation than what [some definitions](https://en.wikipedia.org/wiki/Site_reliability_engineering) would describe.  Populated by Google, like DevOps, SRE can be a job title, an org unit, a program or initiative, or just a collection of practices or goals related to reliable service delivery.  In this narrower intepretation the specification is simply defined as follows:
+This focus area probably requires the least explanation except to clarify that I have chosen to take a narrower interpretation than what [some definitions](https://en.wikipedia.org/wiki/Site_reliability_engineering) would describe.  Populated by Google, like DevOps, SRE can be a job title, an org unit, a program or initiative, or just a collection of practices or goals related to reliable service delivery.  In this narrower interpretation the specification is simply defined as follows:
 
 
 | Item         | Description                                                                                      |
@@ -107,7 +107,7 @@ Application and system logs have been a [standard part of computing](https://en.
 ## Focus Area 5: Build Pipeline
 
 #### Why?
-The ability to release code with minimal effort, risk and as quickly as possible in an important feature for SaaS businesses to enable growth.  By reducing the overhead of doing a release you can reduce the delta of change which justifies a release, and therefore reduce the risk of every release. And then by releasing more quickly you can deliver value sooner, get feedback more quickly and more generally facilitate agility across the business.  The processes that formalise best practice are known as continuous integration and delivery ([CI/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)). They are enabled by trust in the delta which is traditionally driven by QA-automation practices and to a lesser extent the ability to control change independent of code through [feature flag](https://en.wikipedia.org/wiki/Feature_toggle) tooling. 
+The ability to release code with minimal effort, risk and as quickly as possible is an important feature for SaaS businesses to enable growth.  By reducing the overhead of doing a release you can reduce the delta of change which justifies a release, and therefore reduce the risk of every release. And then by releasing more quickly you can deliver value sooner, get feedback more quickly and more generally facilitate agility across the business.  The processes that formalise best practice are known as continuous integration and delivery ([CI/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)). They are enabled by trust in the delta which is traditionally driven by QA-automation practices and to a lesser extent the ability to control change independent of code through [feature flag](https://en.wikipedia.org/wiki/Feature_toggle) tooling. 
 
 ![Research](https://toobstar.github.io/images/ci_cd.jpg)
 
@@ -122,7 +122,7 @@ The ability to release code with minimal effort, risk and as quickly as possible
 ## Focus Area 6: Cost Management
 
 #### Why?
-It should go without saying that cost managment is a critical element of SaaS delivery.  The ability in a modern cloud native business to adjust infrastructure settings at will provides tremendous flexibility and power to solve problems.  It also provides the ability to drive cost quickly and in unexpected ways so care must be taken to ensure the operational setup is in alignment with the business strategy that is being pursued. This can come down to a risk assessment where no (or low) risk costs significantly more than a higher risk setting and finding the right level should be done with transparency between all stakeholders in order to enable the business strategy and achieve the SRE settings that have been agreed to.  
+It should go without saying that cost management is a critical element of SaaS delivery.  The ability in a modern cloud native business to adjust infrastructure settings at will provides tremendous flexibility and power to solve problems.  It also provides the ability to drive cost quickly and in unexpected ways so care must be taken to ensure the operational setup is in alignment with the business strategy that is being pursued. This can come down to a risk assessment where no (or low) risk costs significantly more than a higher risk setting and finding the right level should be done with transparency between all stakeholders in order to enable the business strategy and achieve the SRE settings that have been agreed to.  
 
 | Item         | Description                                                                                      |
 | ------------ | ------------------------------------------------------------------------------------------------ 
@@ -145,7 +145,7 @@ Related to SRE is the more specialised area of understanding what infrastructure
 | DR Objectives defined | Recovery time objective (RTO): Acceptable duration of service downtime<br>Recovery point objective (RPO): Acceptable loss of data.                                   |
 | DRP in place          | A disaster recovery plan with appropriate scenarios has been created that describes how state would be re-instantiated and the service recovered under each scenario |
 | DRP tested            | The disaster recovery plan has been used or tested and there is confidence it would work as intended                                                                 |
-| Backups               | Backups exist in a suitable location such that recovery is possible in the event of the disaster scenarios occuring                                                  |
+| Backups               | Backups exist in a suitable location such that recovery is possible in the event of the disaster scenarios occurring                                                  |
 | Restoration           | Backup restores have been tested to confirm they would work as intended                                                                                              |
 
 
@@ -162,7 +162,7 @@ The culmination of a suite of cloud security tools when delivered as a platform 
 
 | Item         | Description                                                                                      |
 | ------------ | ------------------------------------------------------------------------------------------------ 
-| Secure Engineering                                 | Training and guidance on secure coding practices and issues wuch as OWASP                                                                                                                        |
+| Secure Engineering                                 | Training and guidance on secure coding practices and issues such as OWASP                                                                                                                        |
 | Static Application Security Testing (SAST)         | Analyse source code and related configuration (including infrastructure as code) to identify security vulnerabilities typically through reference to Common Vulnerabilities and Exposures (CVEs) |
 | Dynamic Application Security Testing (DAST)        | Penetration testing and active validation against live services                                                                                                                                  |
 | Cloud Security Posture Management (CSPM)           | Detect and prevent misconfigurations in the cloud environment that could lead to sensitive data breaches and security compliance violations. e.g. across areas such as networking & encryption   |
@@ -170,5 +170,5 @@ The culmination of a suite of cloud security tools when delivered as a platform 
 | Cloud Service Network Security (CSNS)              | Services such as web-application-firewalls (WAFs) or Zero Trust Network Access (ZTNA)                                                                                                        |
 | Cloud Workload Protection Platform (CWPP)                                                                                | Continuous monitoring of cloud workloads via agents or direct access. A control over running processes in our cloud infrastructure.               
 | Data Loss Prevention (DLP)                                                                                               | Monitor for unsafe or inappropriate sharing, transfer, or use of sensitive data information transfer across cloud services                                                     |
-| Privileged Access Management (PAM)                                                                                       | Monitoring, detecting, and preventing unauthorized privileged access to critical resources                                                    |
+| Privileged Access Management (PAM)                                                                                       | Monitoring, detecting, and preventing unauthorised privileged access to critical resources                                                    |
 | Security information and event management ([SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management)) | A logging channel that collects audit or events related to security in a single pane to facilitate the detection of threats across all business operations |
