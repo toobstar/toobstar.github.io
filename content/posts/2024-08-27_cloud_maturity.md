@@ -13,7 +13,7 @@ With modern tooling SaaS can be up and running very quickly and easily but the j
 
 ## Defining the S in SaaS
 
-To start with a simple definition though, an organisation may have a readily identifiable service which is their principle offering.  Beneath the hood there may be many independent applications which operate together to enable the offering.  A modern architecture known as [micro-services](https://en.wikipedia.org/wiki/Microservices) is commonly used which results in a proliferation of services and from a maturity point of view they could be at varying points along the maturity spectrum.  
+To start with a simple definition though, an organisation may have a readily identifiable service which is their principle offering.  Beneath the hood there may be many independent applications which operate together to enable the offering.  A modern architecture known as [micro-services](https://en.wikipedia.org/wiki/Microservices) is commonly used which results in a proliferation of services and from a maturity point of view they could be at varying points along the maturity spectrum.  Whether it makes sense to consider each micro-service independently or to consider them collectively will be context specific.  Needless to say if a collective approach is taken the system is only as strong as the weakest link so scoring progress should recognise that. 
 
 ## What are the attributes of a mature service?  
 
