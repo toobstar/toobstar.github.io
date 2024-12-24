@@ -1,7 +1,7 @@
 +++
 title = 'SaaS Delivery Maturity'
 date = 2024-11-27T13:43:36+10:00
-draft = true
+draft = false
 categories = []
 tags = ['CIO', 'Cloud', 'SaaS', 'Service Delivery']
 revision = 1
