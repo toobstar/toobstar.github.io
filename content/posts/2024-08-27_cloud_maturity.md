@@ -13,7 +13,7 @@ With modern tooling SaaS can be up and running very quickly and easily but but t
 
 ## What are the attributes of a mature service?  
 
-That would include the service covering off the requirements of all functions of a modern business (finance, marketing, commercial, product, engineering etc) whilst facilitating the growth and constant change a service is expected to accomodate and being dependent on unreliable and changing 3rd party services to run, in as efficient and cost effective manner as possible.  For a technical service manager the focus will most naturally be on deploying new releases ('the build pipeline'), performance, cost and (if we're lucky) security.  These are all critical concerns and ones the technical service manager is the principle stakeholder for, but at a wholistic business level, there are other questions and demands the business will have of a service which it's important to also cover off. 
+That would include the service covering off the requirements of all functions of a modern business (finance, marketing, commercial, product, engineering etc) whilst facilitating the growth and constant change a service is expected to accomodate, being dependent on unreliable and changing 3rd party services to run, in as efficient and cost effective manner as possible.  For a technical operational service owner the focus will most naturally be on deploying new releases ('the build pipeline'), performance, cost and (if we're lucky) security.  These are all critical concerns and ones the technical service manager is the principle stakeholder for, but at a holistic organisational level, there are other questions and demands the business will have of a service which it's important to also cover off. 
 
 ## Creating a roadmap whilst the journey is underway
 
@@ -99,9 +99,66 @@ Application and system logs have been a [standard part of computing](https://en.
 #### Why?
 The ability to release code with minimal effort, risk and as quickly as possible in an important feature for SaaS businesses to enable growth.  By reducing the overhead of doing a release you can reduce the delta of change which justifies a release, and therefore reduce the risk of every release. And then by releasing more quickly you can deliver value sooner, get feedback more quickly and more generally facilitate agility across the business.  The processes that formalise best practice are known as continuous integration and delivery ([CI/CD](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)). They are enabled by trust in the delta which is traditionally driven by QA-automation practices and to a lesser extent the ability to control change independent of code through [feature flag](https://en.wikipedia.org/wiki/Feature_toggle) tooling. 
 
+![Research](https://toobstar.github.io/images/ci_cd.jpg)
+
 
 | Item         | Description                                                                                      |
 | ------------ | ------------------------------------------------------------------------------------------------ 
 | Source Repository  | Central control of code with ability to plug-in developer productivity tooling or operational (security) analysis                                                |
 | IaaC (build)       | Infrastructure as code is a key capability to facilitate scale and compliance controls through a proper lifecycle management process over traditional click-ops. |
 | Release Automation | Low friction and controlled change management to allow for continuous integration and continuous delivery                                                        |
+
+
+## Focus Area 6: Cost Management
+
+#### Why?
+It should go without saying that cost managment is a critical element of SaaS delivery.  The ability in a modern cloud native business to adjust infrastructure settings at will provides tremendous flexibility and power to solve problems.  It also provides the ability to drive cost quickly and in unexpected ways so care must be taken to ensure the operational setup is in alignment with the business strategy that is being pursued. This can come down to a risk assessment where no (or low) risk costs significantly more than a higher risk setting and finding the right level should be done with transparency between all stakeholders in order to enable the business strategy and achieve the SRE settings that have been agreed to.  
+
+| Item         | Description                                                                                      |
+| ------------ | ------------------------------------------------------------------------------------------------ 
+| Attribution         | I.T. & infrastructure services are attributed to a cost centre                                                                                                           |
+| Owner               | Cost centres have owners or related stakeholders who are informed of cost positions                                                                                      |
+| Modelling           | An understanding exists of fixed & variable cost drivers as related to the cost of service delivery and product development both overall and per sale (incremental cost) |
+| Reporting           | Regular cost reports are presented to stakeholders in a way that aligns to the cost model and facilitates informed commercial and product-engineering decisions          |
+| Budgets & Forecasts | Cost Forecasts are made for the cost centres and actual costs are tracked against budgets over time                                                                      |
+| Anomaly Detection   | Spikes in cost are detected in a timely way so action can be taken to prevent unintended blowouts                                                                        |
+
+
+## Focus Area 7: Business Continuity 
+
+#### Why?
+Related to SRE is the more specialised area of understanding what infrastructure and services enable SaaS delivery, developing scenarios under which they could fail, and then building out and testing plans to allow for continuity of service delivery through these scenarios. 
+
+| Item         | Description                                                                                      |
+| ------------ | ------------------------------------------------------------------------------------------------ 
+| State Catalogue       | Any non-transitory state for each service that is a required input (e.g. a database) is clearly documented                                                           |
+| DR Objectives defined | Recovery time objective (RTO): Acceptable duration of service downtime<br>Recovery point objective (RPO): Acceptable loss of data.                                   |
+| DRP in place          | A disaster recovery plan with appropriate scenarios has been created that describes how state would be re-instantiated and the service recovered under each scenario |
+| DRP tested            | The disaster recovery plan has been used or tested and there is confidence it would work as intended                                                                 |
+| Backups               | Backups exist in a suitable location such that recovery is possible in the event of the disaster scenarios occuring                                                  |
+| Restoration           | Backup restores have been tested to confirm they would work as intended                                                                                              |
+
+
+
+## Focus Area 8: Security & Compliance
+
+#### Why?
+SaaS typically depends on the key-tenets of information security (Confidentiality , Integrity  and Availability) to operate well so there is a natural synergy between the two.  Building trust with customers or suppliers in order to achieve commercial goals requires ensuring security is taken seriously and is provable. For that reason companies typically adopt a certifiable and well regarded framework to achieve their security goals.  
+
+The mantra of a modern security focussed organisation is to “shift left” on security by building awareness with the team, and taking steps to consider security from the outset of product development.  There are now many modern tools and processes which can assist to automate this which modern organisations should definitely be adopting. 
+
+The culmination of a suite of cloud security tools when delivered as a platform (which can be quite efficient and effective from an integration point of view) is known as a Cloud Native Application Protection Platform	 (CNAPP).  
+
+
+| Item         | Description                                                                                      |
+| ------------ | ------------------------------------------------------------------------------------------------ 
+| Secure Engineering                                 | Training and guidance on secure coding practices and issues wuch as OWASP                                                                                                                        |
+| Static Application Security Testing (SAST)         | Analyse source code and related configuration (including infrastructure as code) to identify security vulnerabilities typically through reference to Common Vulnerabilities and Exposures (CVEs) |
+| Dynamic Application Security Testing (DAST)        | Penetration testing and active validation against live services                                                                                                                                  |
+| Cloud Security Posture Management (CSPM)           | Detect and prevent misconfigurations in the cloud environment that could lead to sensitive data breaches and security compliance violations. e.g. across areas such as networking & encryption   |
+| Cloud Infrastructure Entitlement Management (CIEM) | Targeted Privilege and identity configuration oversight                                                                                                                                          |
+| Cloud Service Network Security (CSNS)              | Services such as web-application-firewalls (WAFs) or Zero Trust Network Access (ZTNA)                                                                                                        |
+| Cloud Workload Protection Platform (CWPP)                                                                                | Continuous monitoring of cloud workloads via agents or direct access. A control over running processes in our cloud infrastructure.               
+| Data Loss Prevention (DLP)                                                                                               | Monitor for unsafe or inappropriate sharing, transfer, or use of sensitive data information transfer across cloud services                                                     |
+| Privileged Access Management (PAM)                                                                                       | Monitoring, detecting, and preventing unauthorized privileged access to critical resources                                                    |
+| Security information and event management ([SIEM](https://en.wikipedia.org/wiki/Security_information_and_event_management)) | A logging channel that collects audit or events related to security in a single pane to facilitate the detection of threats across all business operations |
