@@ -1,5 +1,5 @@
 +++
-title = 'Cybersecurity Maturity'
+title = 'Considering Cybersecurity and why a framework matters'
 date = 2024-06-03T13:01:19+10:00
 draft = false
 categories = []
@@ -10,7 +10,7 @@ revision = 1
 
 ![Research](https://toobstar.github.io/images/caveman_reading2.jpg)
 
-In a domain with significant uncertainty and complexity such as cybersecurity a common approach taken by organisations to determine what action should be taken is to ask where they stand compared to others? Essentially *are we ahead or behind expectations for an organisation like ours*? This approach of determining norms and *staying within the lane* is a reasonable heuristic when entering a domain without subject matter experts familiar with the organisation.
+In a domain with significant uncertainty and complexity such as cybersecurity a common approach taken by immature organisations to determine what action should be taken is to ask where they stand compared to others? Essentially *are we ahead or behind expectations for an organisation like ours*? This approach of determining norms and *staying within the lane* is a reasonable heuristic when entering a domain without subject matter experts familiar with the organisation.
 
 A useful way to determine this positioning is to consider how **mature** the organisation is across the key drivers of cybersecurity risk.  Those being:
 
@@ -79,6 +79,6 @@ This indicates that research has been done to determine the optimal solution for
 |                      |                                                                           |                                                                                                         | Expose engineering team to security guidance ('Shift left on risk')                         |
                                                                                                                        
 
-Each of the elements in the table above can represent significant amounts of effort to be progressed through and I anticipate expanding on each through this site. A framework for managing information-security risk such as ISO 27001 essentially encompasses a toolkit to undertake that work.  Where that longer term commitment is anticipated I would recommend going down that pathway as the structure of the program is well considered and the benefit brought through external audit is clear to see.
+Each of the elements in the table above can represent significant amounts of effort to be progressed through and I anticipate expanding on each through this site. A framework for managing information-security risk such as **ISO 27001** essentially encompasses a toolkit to undertake that work.  Where that longer term commitment is anticipated I would recommend going down that pathway as the structure of the program is well considered and the benefit brought through external audit is clear to see.
 
 
