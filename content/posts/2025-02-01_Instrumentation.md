@@ -1,6 +1,6 @@
 +++
 title = 'Application Instrumentation and Observability'
-date = 2025-02-01T13:52:16+11:00
+date = 2025-01-21T13:52:16+11:00
 draft = false
 tags = ['Security', 'CIO', 'Cloud', 'SaaS', 'DevOps']
 revision = 1
