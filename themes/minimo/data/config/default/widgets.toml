@@ -8,8 +8,8 @@ separator = "/"
 excludeParents = ["page"]
 
 [recent_posts]
-title = ""
-length = 15
+title = "Articles"
+length = 100
 excludeTypes = ["page"]
 
 [search]
