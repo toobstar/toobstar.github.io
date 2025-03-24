@@ -3,8 +3,8 @@ title = 'Considering Cybersecurity and why a Framework Matters'
 date = 2024-06-03T13:01:19+10:00
 draft = false
 categories = []
-tags = ['CISO', 'Risk']
-revision = 1
+tags = ['CISO', 'Risk', 'Frameworks', 'Governance']
+revision = 2
 
 +++
 
@@ -21,64 +21,79 @@ A useful way to determine this positioning is to consider how **mature** the org
 Where the risks relate to the ability to maintain the **confidentiality**, **integrity** and **availability** ([CIA](https://en.wikipedia.org/wiki/Information_security)) of their information assets. In this analysis I've defined 3 levels of progression:
 
 #### Level 1: Basic
-This doesn't mean no risk management but rather a lack of central control, formality or repeatability to solutions in place to address risks.  More weighting is placed on good luck than good planning.
+This doesn't mean no risk management but rather a lack of central control, formality or repeatability to solutions in place to address risks.  More weighting is placed on good luck than good planning.  There is also no consistent or managed effort to identify assets requiring protection which results in an inability to ensure all assets are protected appropriately with any degree of confidence both now and in the future. 
 
 #### Level 2: Improved
 An authority has been identified within the organisation who has considered the assets and associated risks. Solutions may be in place that have been developed for the purpose if risk mitigation, but they may be specific to a team or function. They may also lack formality and oversight which results in variable outcomes.
 
 #### Level 3: Best practice
-This indicates that research has been done to determine the optimal solution for the organisation, it has been documented, and relevant processes are being followed for implementation and oversight. Also that the solutions in place are being reconsidered on a regular basis. 
+This indicates that a formal risk management process has been followed to get to an optimal solution for a defined problem.  The solution is documented and relevant processes are being followed for implementation and oversight. Also that the solutions in place are being reconsidered on a regular basis to allow for continuous improvement. 
 
-
-## People
-
-|           | Level 1: Basic                                                                         | Level 2: Improved                                                      | Level 3: Best practice                                                                                                       |
-| --------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Knowledge | No formal assessment of knowledge                                                      | Self directed training                                                | Mandatory scheduled training                                                                                                 |
-|           | No formal consideration has been given to key assets / risks / threats to the business | Limited understanding of key assets / risks / threats to the business | Broad understanding of key assets / risks / threats to the business                                                          |
-| Attitude  | Inconsistent knowledge / fear of cyber incidents                                       | Fear of incidents but avoidance of reporting due to repercussions     | Appropriate respect for risks and trust in the organisation that reporting of incidents will be handled in a no-blame manner |
-
-
-
-## Processes
-
-|                        | Level 1: Basic                                                                           | Level 2: Improved                                           | Level 3: Best practice                                                                                                                         |
-| ---------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Change Management      | No paper trail for changes in configuration which impact access or risk                  | Changes are documented for who / why / what                | Audits are done on who has access to what and why                                                                                              |
-| Access Control         | To ensure no barriers to work maximal access (e.g. admin level) provided by default      | Access is granted when requested                           | Least privilege access                                                                                                                         |
-|                        |                                                                                          |                                                            | Role based access linked to on/off boarding                                                                                                    |
-| Separation of duties   | Done informally if at all                                                                | Domain specific processes are documented where appropriate | Formalised processes with oversight                                                                                                            |
-| Risk                   | No formal process adopted                                                                | Domain specific processes are documented where sensitive   | Formal processes in place                                                                                                                      |
-|                        |                                                                                          |                                                            | Understanding of risk taking / oversight functions (e.g. 3LOD)                                                                                 |
-|                        |                                                                                          |                                                            | Openness to consider risk in new domains (e.g. gen ai)                                                                                         |
-| Continuous Improvement | After incidents there is no formal process to learn in order to avoid repeat occurrences | Domain specific review are undertaken in an ad hoc manner  | Formal processes for retrospective, improvement are in place (e.g. Plan-Do-Check-Act Principle PDCA or Corrective and Preventive Actions CAPA) |
-
-
-## Systems
-
-|                      | Level 1: Basic                                                            | Level 2: Improved                                                                                        | Level 3: Best practice                                                                      |
-| -------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| Identity Mgt         | Fragmented silos with no central control or oversight                     | Centralised directory management                                                                        | Automated provisioning based on role for on/off boarding                                    |
-| Authentication       | No central control or oversight                                           | Password Management                                                                                     | Passwordless                                                                                |
-|                      |                                                                           | MFA (SMS/email)                                                                                         | MFA (hardware/TOTP)                                                                         |
-|                      |                                                                           | SSO                                                                                                     | Smart / Context Aware access with risk based control                                        |
-| Device Mgt           | No central control of device or access (MDM)<br>Traditional AV / Firewall | Centrally controlled MDM with asset register (HD encryption, remote wipe, OS / application updates etc) | XDR/EDR posture management (heuristic based detection and automated remediation capability) |
-| Data                 | Informal data catalogue                                                   | Data is documented                                                                                      | Documentation generation is automated and is audited to match held data                     |
-|                      | Data catalogue is not maintained                                          | Documentation provides guidance on sensitivity & controls                                               | Data loss prevention (DLP)                                                                  |
-|                      |                                                                           |                                                                                                         | Data disposal is automated                                                                  |
-| Network              | No controls                                                               | VPN                                                                                                     | Zero-trust (ZTNA)                                                                           |
-|                      |                                                                           | Firewalls & I.P. whitelisting                                                                           | Secure Web Gateway (SWG)                                                                    |
-| Cloud Services       | Shadow I.T. commonplace                                                   | Supplier Assessments                                                                                    | Cloud access service broker (CASB)                                                          |
-|                      |                                                                           | Central User directory                                                                                  | Centralised user provisioning (SCIM)                                                        |
-|                      |                                                                           |                                                                                                         | Privileged Access Mgt (PAM)                                                                 |
-| Cloud Infrastructure | Ad hoc setup                                                              | Least privilege access                                                                                  | Cloud Security Posture Management (CSPM)                                                    |
-|                      | Overly permissive access                                                  | Infr as code (IAC)                                                                                      | Cloud Workload Protection Platform (CWPP)                                                   |
-|                      |                                                                           | Static Application Security Testing (SAST)                                                              | Cloud Infrastructure Entitlement Management (CIEM)                                          |
-|                      |                                                                           | Access Audits                                                                                           | Cloud Service Network Security (CSNS)                                                       |
-|                      |                                                                           |                                                                                                         | Cloud Native Application Protection Platform (CNAPP\*)                                      |
-|                      |                                                                           |                                                                                                         | Expose engineering team to security guidance ('Shift left on risk')                         |
+## A Cybersecurity Framework
                                                                                                                        
+To get an organistion into best-practice range across the 3 key drivers of risk takes considerable effort and planning.  An effective solution for most organisations is to follow a roadmap for that which provides a step by step pathway across the organisation which must be impacted by this for it to be successful. 
 
-Each of the elements in the table above can represent significant amounts of effort to be progressed through and I anticipate expanding on each through this site. A framework for managing information-security risk such as **ISO 27001** essentially encompasses a toolkit to undertake that work.  Where that longer term commitment is anticipated I would recommend going down that pathway as the structure of the program is well considered and the benefit brought through external audit is clear to see.
+Beyond the real risk mitigation of this exercise the principle benefit of using a recognised framework is the ability to demonstrate that through audit accreditation.  By demonstrating to suppliers and customers that the organisation is a 'safe pair of hands' commercial success can be enabled. 
+
+![Roadmap](https://toobstar.github.io/images/caveman_bicycle.jpg)
+ 
+Here is an overview of some popular frameworks
+
+### ISO/IEC 27001
+
+* **Developed by:** International Organization for Standardization (ISO) (Switzerland)
+* **Approach:**
+  * Information Security Management System (ISMS)
+  * Risk assessment and treatment
+  * Security policies, controls, and audits
+* **Use Case:** Globally recognised certification, scope to implement policies appropriate to the organisation 
+
+###  NIST Cybersecurity Framework (NIST CSF)
+
+* **Developed by:** National Institute of Standards and Technology (NIST), USA
+* ** Approach:**
+  * **Identify** – Understand cybersecurity risks to systems, assets, and data
+  * **Protect** – Implement safeguards to mitigate risks
+  * **Detect** – Monitor and identify cybersecurity events
+  * **Respond** – Take action against detected cybersecurity incidents
+  * **Recover** – Restore services and minimize impact post-incident
+* **Use Case:** Highly recognised in the USA 
+
+
+### CIS Controls (Center for Internet Security Controls)
+
+* **Developed by:** Center for Internet Security (CIS).
+* **Approach:** 
+  * **Provides prioritized security controls to protect against cyber threats
+  * **18 critical security controls (e.g., asset management, data protection, security monitoring)
+* **Use Case:** Practical guidance for IT teams to strengthen security
+
+---
+
+### COBIT (Control Objectives for Information and Related Technologies)
+
+* **Developed by:** ISACA (Information Systems Audit and Control Association)
+* **Approach:**
+  * Framework for aligning IT security with business objectives
+  * Risk management and compliance
+* **Use Case:** Suitable for enterprises managing IT governance alongside security
+
+---
+
+### PCI DSS (Payment Card Industry Data Security Standard)
+
+* **Developed by:** PCI Security Standards Council.
+* **Approach:**
+  * Encryption and secure handling of payment data.
+  * Network security controls and access management.
+  * Regular monitoring and testing of security systems.
+* **Use Case:** Mandatory for businesses handling payment card transactions.
+
+---
+
+
+
+
+
 
 
