@@ -1,5 +1,5 @@
 +++
-title = 'Considering Cybersecurity and why a framework matters'
+title = 'Considering Cybersecurity and why a Framework Matters'
 date = 2024-06-03T13:01:19+10:00
 draft = false
 categories = []
@@ -10,7 +10,7 @@ revision = 1
 
 ![Research](https://toobstar.github.io/images/caveman_reading2.jpg)
 
-In a domain with significant uncertainty and complexity such as cybersecurity a common approach taken by immature organisations to determine what action should be taken is to ask where they stand compared to others? Essentially *are we ahead or behind expectations for an organisation like ours*? This approach of determining norms and *staying within the lane* is a reasonable heuristic when entering a domain without subject matter experts familiar with the organisation.
+In a domain with significant uncertainty and complexity such as cybersecurity a common approach taken by organisations initially  is to ask where they stand compared to similar companies? Essentially *are we ahead or behind expectations for an organisation like ours*? This approach of determining norms and *staying within the lane* is a reasonable heuristic when entering a domain without subject matter experts within the organisation.
 
 A useful way to determine this positioning is to consider how **mature** the organisation is across the key drivers of cybersecurity risk.  Those being:
 
@@ -18,13 +18,13 @@ A useful way to determine this positioning is to consider how **mature** the org
 - **Processes**: The nature of the work that the team undertakes (e.g. how complex or repeatable it is)
 - **Systems**: The tools and infrastructure in place that enables them to do this work
 
-Where the risks govern the ability of the organisation to maintain the **confidentiality**, **integrity** and **availability** ([CIA](https://en.wikipedia.org/wiki/Information_security)) of their information assets. In my analysis of cybersecurity maturity I've defined 3 broad levels of progression:
+Where the risks relate to the ability to maintain the **confidentiality**, **integrity** and **availability** ([CIA](https://en.wikipedia.org/wiki/Information_security)) of their information assets. In this analysis I've defined 3 levels of progression:
 
 #### Level 1: Basic
-This doesn't necessarily mean no progress, but could indicate a lack of central control, formality or repeatability to solutions in place to address risks.
+This doesn't mean no risk management but rather a lack of central control, formality or repeatability to solutions in place to address risks.  More weighting is placed on good luck than good planning.
 
 #### Level 2: Improved
-Consideration has been given by an authority within the organisation, and solutions may be in place that have been developed for the purpose if risk mitigation, but they may be specific to a team or function. They may also lack formality and oversight which results in variable outcomes.
+An authority has been identified within the organisation who has considered the assets and associated risks. Solutions may be in place that have been developed for the purpose if risk mitigation, but they may be specific to a team or function. They may also lack formality and oversight which results in variable outcomes.
 
 #### Level 3: Best practice
 This indicates that research has been done to determine the optimal solution for the organisation, it has been documented, and relevant processes are being followed for implementation and oversight. Also that the solutions in place are being reconsidered on a regular basis. 
