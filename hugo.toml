@@ -59,7 +59,7 @@ xxxheader = ["breadcrumbs"]
 header = []
 homepage = ["recent_posts"]
 xxxsidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
-sidebar = ["about","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about","social_menu", "sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
 
 [params.opengraph.facebook]
@@ -81,7 +81,7 @@ facebook = ""
 github = "toobstar"
 gitlab = ""
 instagram = ""
-linkedin = "toby-vidler-36973425"
+linkedin = "toby-vidler"
 twitter = ""
 telegram = ""
 google_scholar = ""
