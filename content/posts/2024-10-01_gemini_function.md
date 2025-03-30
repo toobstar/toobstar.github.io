@@ -1,7 +1,7 @@
 +++
-title = 'Fixing a missing feature of Google Workspace to improve the Gemini AI Assistant'
+title = 'Fixing a missing feature of Gemini AI to improve Google Sheets'
 date = 2024-10-13T09:24:56+11:00
-draft = true
+draft = false
 tags = ['Collaboration', 'CIO', 'Integration', 'Productivity']
 revision = 1
 +++
@@ -14,21 +14,21 @@ As compelling at Google's Gemini features are, and the fact they are sprinkled a
 
 ![Gemini Prompt in Google Sheets](https://toobstar.github.io/images/sheets_gemini_prompt.gif)
 
-[This approach](https://developers.google.com/workspace/add-ons/overview) allows you to do that via:
+[The approach](https://developers.google.com/workspace/add-ons/overview) I'm demonstrating allows you to do that via:
 
-1) [A Google Workspace Apps Script](https://github.com/toobstar/google-workspace-apps-scripts/blob/main/google-sheets-gemini-function.js)
+1) [A Google Workspace Apps Script](https://github.com/toobstar/google-workspace-apps-scripts/blob/main/google-sheets-gemini-function.js) that you implement in your own [workspace](https://script.google.com)
 2) That has been configured to run in Google Cloud Platform (GCP)
 3) And has a Google Workspace Marketplace listing to enable it to be installed as an extension
 
 Before setting up the code in the script you need to [create an API key in the Google AI Studio](https://aistudio.google.com/app/apikey).  The script itself simply facilitates the google-sheet [custom function logic](https://sheetbest.com/blog/deploying-google-sheets-custom-functions/) making a request into the API.  
 
-After creating a project at script.google.com and copying the [code](https://github.com/toobstar/google-workspace-apps-scripts/blob/main/google-sheets-gemini-function.js) in you then need to enable the GCP link after also creating the GCP project:
+After creating a project at [script.google.com](https://script.google.com) and copying the [code](https://github.com/toobstar/google-workspace-apps-scripts/blob/main/google-sheets-gemini-function.js) in you then need to enable the GCP link after also creating the GCP project:
 
 ![Getting Clarity](https://toobstar.github.io/images/sheets_gemini_gcp.jpg)
 
 You also need to deploy the application and note the version you are at which will go in the marketplace listing configuration. 
 
-From the GCP project page you can then create an app marketplace listing which will eventually appear [here](https://developers.google.com/workspace/marketplace/manage-app-listing):
+From the GCP project page you can then create an app marketplace listing which will *eventually* appear [here](https://developers.google.com/workspace/marketplace/manage-app-listing):
 
 To update the configuration or details of your app listing, follow these steps:
 
