@@ -1,15 +1,19 @@
 +++
-title = 'Fixing a missing Google Gemini AI Assistant Capability'
+title = 'Fixing a missing feature of Google Workspace to improve the Gemini AI Assistant'
 date = 2024-10-13T09:24:56+11:00
 draft = true
 tags = ['Collaboration', 'CIO', 'Integration', 'Productivity']
 revision = 1
 +++
 
+![Improving Gemini AI](https://toobstar.github.io/images/caveman_computer.jpg)
 
 ## Implementing a missing (but obvious) feature of Google Gemini AI assistant.  
 
-As compelling at Google's Gemini features are, and the fact they are sprinkled across the Google Product suite (including Sheets) it seems like a massive oversight to not allow users to make a direct function call from a spreadsheet cell to Gemini.
+As compelling at Google's Gemini features are, and the fact they are sprinkled across the Google Product suite (including Sheets) it seems like a massive oversight to not allow users to make a direct function call from a spreadsheet cell to Gemini.  By having this in place you can do bulk updates that auto-refresh from Gemini and can directly interact with existing spreadsheet data in an extremely useful way. 
+
+
+![Gemini Prompt in Google Sheets](https://toobstar.github.io/images/sheets_gemini_prompt.gif)
 
 [This approach](https://developers.google.com/workspace/add-ons/overview) allows you to do that via:
 
