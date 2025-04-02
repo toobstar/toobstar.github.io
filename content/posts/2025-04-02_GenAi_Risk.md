@@ -60,7 +60,11 @@ Another practical and control focussed approach is to look at a vendor based vie
 
 ![Wiz AI Risk Control](https://toobstar.github.io/images/wiz-ai-risk-pipeline.png)
 
-This is a very practical guide 
+This is a very practical guide for how an organisation could detect, prevent and remediate risks that GenAI brings to operations. It brings together oversight on data, configuration and workloads specific to AI that would hope to manage emerging risks that would otherwise go by unmanaged. Although this is a highly fluid domain the sort of emerging risks that should be considered include this list shared by advisor on cyber risk [Andrew Milroy](https://www.linkedin.com/in/andrewmilroy/) at a recent event I attended
+
+![Emerging AI Risks](https://toobstar.github.io/images/ai-risk-examples.png)
+
+
 
 
 
