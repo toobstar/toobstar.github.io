@@ -21,7 +21,7 @@ And since 2020 with the widespread release of large scale language models (LLMs)
 
 ## Governance and Risk in AI
 
-The journey of governance and risk control in AI may not have had the same explosion in usage and excitement that the most prominent services have generated, but the pathway from (1) principles of ethics and trust, to (2) governance frameworks, and now to (3) commercialised risk control service offerings has also been extremely fast and seeks to address the tidal wave of interest there is in this area.
+The journey of governance and risk control in AI has not had the same explosion in usage and excitement that the most prominent services such as Chat-GPT have generated, but the pathway from (1) principles of ethics and trust, to (2) governance frameworks, and now to (3) commercialised risk control service offerings has also been extremely fast and seeks to address the tidal wave of interest there is in this area.
 
 ## Risk Overview and Trust Frameworks
 
@@ -32,7 +32,7 @@ There are many obvious and well discussed potential issues that jump to mind wit
 - privacy and copyright concerns with source data 
 - bias and discrimination that reflect and reinforce the views of problematic source material
 
-Following widespread discussions that have occured on these topics and the direct personal experience that many have had with these issues many companies were early to establish trust policies that attempted to address these concerns.  [Atlassian is an example](https://www.atlassian.com/trust/responsible-tech-principles) of one such organisation that was proactive here.  Governments around the world have followed including here in Australia with the [8 AI Ethics Principles published](https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles/australias-ai-ethics-principles), somewhat mirroring the widely deployed information-security framework [Essential 8](https://www.cyber.gov.au/resources-business-and-government/essential-cybersecurity/essential-eight).  
+Following widespread discussions that have occured on these topics and the direct personal experience that many have had with these issues many companies were early to establish trust policies that attempted to address these concerns.  [Atlassian is an example](https://www.atlassian.com/trust/responsible-tech-principles) of one such organisation that was proactive here.  Governments around the world have followed including here in Australia with the [8 AI Ethics Principles published](https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles/australias-ai-ethics-principles).  
 
 - **Human, societal and environmental wellbeing**: AI systems should benefit individuals, society and the environment.
 - **Human-centred values**: AI systems should respect human rights, diversity, and the autonomy of individuals.
@@ -43,7 +43,7 @@ Following widespread discussions that have occured on these topics and the direc
 - **Contestability**: When an AI system significantly impacts a person, community, group or environment, there should be a timely process to allow people to challenge the use or outcomes of the AI system.
 - **Accountability**: People responsible for the different phases of the AI system lifecycle should be identifiable and accountable for the outcomes of the AI systems, and human oversight of AI systems should be enabled.
 
-These principles are sensible and should be followed, but are not tactical in a way that a regular business can employ with ease.
+These are similar in nature to the [Australian Privacy Principles (APPs)](https://www.oaic.gov.au/privacy/australian-privacy-principles) although the APPs are built into the Australian Privacy Act so have a regulatory backing and are legally enforceable. The AI Ethics principles (for now) are  voluntary guidelines.   The principles themselves are sensible and should be followed, but are not tactical in a way that a regular business can employ with ease.
 
 ## Governance and AI
 
