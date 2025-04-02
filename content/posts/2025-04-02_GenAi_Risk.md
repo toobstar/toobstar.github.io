@@ -1,5 +1,5 @@
 +++
-title = 'Emerging patterns in GenAI Risk Control'
+title = 'Emerging patterns in GenAI Governance and Risk Control'
 date = 2025-04-02T13:04:53+11:00
 draft = false
 tags = ['Risk', 'CIO', 'AI', 'GenAI']
