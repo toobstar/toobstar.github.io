@@ -80,7 +80,7 @@ There is value to be applied from past experience on this topic. Finally and mos
 
 ![OWASP Top 10 AI Risks](https://toobstar.github.io/images/owasp_ai_top10.png)
 
-My focus with this article has been on 'internal' risks from the use of AI.  There is significant evidence that the main "threat" from AI is from external bad-actors using AI to improve the effectiveness of their existing methods such as phishing using generated audio/video or harvested personal information to make the approach more credible.  For examples of exploited internal risks the examples I could find relate to privacy, data breaches or bias.  Many of the risks that have been documented above could be theoretical but it's comforting that they are being considered deeply and worth tracking these given the significant focus on this domain with such a broad variety of organisations.  
+My focus with this article has been on *internal* risks from the use of AI.  There is significant evidence that the main "threat" from AI is from *external* bad-actors using AI to improve the effectiveness of their existing methods such as phishing using generated audio/video or harvested personal information to make their approach more credible.  For examples of exploited internal risks the examples I could find relate to privacy, data breaches or bias.  Many of the risks that have been documented above could be theoretical but it's comforting that they are being considered deeply and worth tracking these given the significant focus on this domain with such a broad variety of organisations.  
 
 
 
