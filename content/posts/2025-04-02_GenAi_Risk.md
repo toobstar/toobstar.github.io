@@ -62,21 +62,25 @@ The domain of risk control in AI have developed very quickly such that there is 
 
 ## Risk Management
 
-Another practical and control focussed approach is to look at a vendor based view such as that presented by [Wiz](https://www.wiz.io/solutions/ai-spm).  At a [recent CISO conference](https://focusnetwork.co/cisoleaders.com.au/) Wiz presented an AI-pipeline with the various opportunities they have identified to apply risk controls.  
-
-![Wiz AI Risk Control](https://toobstar.github.io/images/wiz-ai-risk-pipeline.png)
-
-This is a very practical guide for how an organisation could detect, prevent and remediate risks that GenAI brings to operations. It brings together oversight on data, configuration and workloads specific to AI that would hope to manage emerging risks that would otherwise go by unmanaged. Although this is a highly fluid domain the sort of emerging risks that should be considered include this list shared by advisor on cyber risk [Andrew Milroy](https://www.linkedin.com/in/andrewmilroy/) at a recent event I attended
+Although this is a highly fluid domain the sort of novel and emerging risks that should be considered include this list shared by advisor on cyber risk [Andrew Milroy](https://www.linkedin.com/in/andrewmilroy/) at a recent event I attended:
 
 ![Emerging AI Risks](https://toobstar.github.io/images/ai-risk-examples.png)
 
-I also liked this model of risks in AI presented by [EY](https://www.ey.com/en_au/services/consulting/trusted-ai-platform) that places AI risks alongside more traditional risks in the application stack.  
+A practical and control focussed approach is to look at a vendor based view such as that presented by [Wiz](https://www.wiz.io/solutions/ai-spm).  At a [recent CISO conference](https://focusnetwork.co/cisoleaders.com.au/) Wiz presented an AI-pipeline with the various opportunities they have identified to apply risk controls:  
+
+![Wiz AI Risk Control](https://toobstar.github.io/images/wiz-ai-risk-pipeline.png)
+
+This is a very practical guide for how an organisation could detect, prevent and remediate risks that GenAI brings to operations. It brings together oversight on data, configuration and workloads specific to AI that would hope to manage emerging risks that would otherwise go by unmanaged.  Beyond the "posture management" type approach there are also tools emerging to address specific risks such as [IBM's AI Bias detection capability AIF 360](https://research.ibm.com/blog/ai-fairness-360). 
+
+I also liked this model of risks in AI presented by [EY](https://www.ey.com/en_au/services/consulting/trusted-ai-platform) that places AI risks alongside more traditional risks in the application stack:  
 
 ![Modelling AI Risks from EY](https://toobstar.github.io/images/ey-ai-risk-model.png)
 
-There is value to be applied from past experience on this topic. Finally and most comprehensively for a complete understanding of tactics and risks related to AI the go-to frameworks of [OWASP](https://genai.owasp.org) and [Mitre Attack](https://atlas.mitre.org) now incorporate AI overviews which are as detailed as you'd expect them to be.  
+There is value to be applied from past experience on this topic. Finally and most comprehensively for a complete understanding of tactics and risks related to AI the go-to frameworks of [OWASP](https://genai.owasp.org) and [Mitre Attack](https://atlas.mitre.org) now incorporate AI overviews which are as detailed as you'd expect them to be.  MIT is also maintaining an extensive database of [AI Risks](https://airisk.mit.edu) which is worth being aware of.
 
 ![OWASP Top 10 AI Risks](https://toobstar.github.io/images/owasp_ai_top10.png)
+
+My focus with this article has been on 'internal' risks from the use of AI.  There is significant evidence that the main "threat" from AI is from external bad-actors using AI to improve the effectiveness of their existing methods such as phishing using generated audio/video or harvested personal information to make the approach more credible.  For examples of exploited internal risks the examples I could find relate to privacy, data breaches or bias.  Many of the risks that have been documented above could be theoretical but it's comforting that they are being considered deeply and worth tracking these given the significant focus on this domain with such a broad variety of organisations.  
 
 
 
