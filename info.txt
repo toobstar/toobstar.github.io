@@ -1,0 +1,11 @@
+Development
+  hugo server -D --buildDrafts -F
+
+Add content page
+  hugo new content posts/2024-07-17_file_name.md
+
+Sync git repo to medium
+  mediumautopost -e medium_sync.txt
+
+Image-gen care of Bing
+  https://www.bing.com/images/create/a-caveman-knocking-on-your-front-door-in-the-style/1-65d42f27c2664e2d9afa11af8c57a9c6?FORM=GENCRE
