@@ -52,7 +52,7 @@ It provides an overview of the key domains of governance and places them in cont
 - Responsible Practices
 - Core Practices
 
-The domain of risk control in AI have developed very quickly such that there is now an [ISO standard for AI Governance (38507)](https://www.iso.org/standard/56641.html) as well as a [NIST AI  Risk framework](https://www.nist.gov/itl/ai-risk-management-framework).  They are both (surprisingly) seemingly mature and well considered standards that would make sense to deployed in risk adverse organisations that have embraced AI.  
+The domain of risk control in AI have developed very quickly such that there is now an [ISO standard for AI Governance (38507)](https://www.iso.org/standard/56641.html) as well as a [NIST AI  Risk framework (AI-600-1)](https://www.nist.gov/itl/ai-risk-management-framework).  They are both (surprisingly) mature and well considered standards that would make sense to be deployed in risk adverse organisations that have embraced AI.  
 
 ## Risk Management
 
@@ -63,6 +63,12 @@ Another practical and control focussed approach is to look at a vendor based vie
 This is a very practical guide for how an organisation could detect, prevent and remediate risks that GenAI brings to operations. It brings together oversight on data, configuration and workloads specific to AI that would hope to manage emerging risks that would otherwise go by unmanaged. Although this is a highly fluid domain the sort of emerging risks that should be considered include this list shared by advisor on cyber risk [Andrew Milroy](https://www.linkedin.com/in/andrewmilroy/) at a recent event I attended
 
 ![Emerging AI Risks](https://toobstar.github.io/images/ai-risk-examples.png)
+
+And finally I liked this model of risks in AI presented by [EY](https://www.ey.com/en_au/services/consulting/trusted-ai-platform) that places AI risks alongside more traditional risks in the application stack.  
+
+![Modelling AI Risks from EY](https://toobstar.github.io/images/ey-ai-risk-model.png)
+
+There is value to be applied from past experience on this topic. 
 
 
 
