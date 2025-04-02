@@ -11,9 +11,9 @@ revision = 1
 
 ## Generative AI: Slow, then fast, then *really* fast
 
-Without providing a deep overview of AI its history has been surprising long.  With early research and commercialisation happening alongside the establishment of computer science even from the 1950s and the likes of Alan Turing. The work back then focussed on rule-based systems and provided basic probabilistic models that could generate simple text.
+Without providing a deep overview of AI the history and use of it is surprising long.  With early research and use happening alongside the establishment of computer science even from the 1950s and the likes of Alan Turing. The work back then focussed on rule-based systems and provided basic probabilistic models that could generate simple text.
 
-Through the 1990s and early 2000s neural networks and deep learning approaches developed to provide more practical commercial applications, but it will still at the fringe of engineering practice.  It has been in the last 10 years that the tranformer revolution and Generative Adversarial Networks (GANs) enabled AI to create realistic images and videos that we saw the use of AI become more central to engineering R&D efforts.  
+Through the 1990s and early 2000s neural networks and deep learning approaches developed to provide more practical commercial applications, but it will still at the fringe of engineering practice.  It has been in the last 10 years that the tranformer revolution and Generative Adversarial Networks (GANs) enabled AI to create realistic images and videos that we saw the use of AI become more central to engineering R&D efforts.  The demonstrations of capabilities were so impressive they could not be ignored. 
 
 And since 2020 with the widespread release of large scale language models (LLMs) based on the transformer architecture with the likes of GPT, DALL-E and Stable Diffusion we have seen the use of these become mainstream and the attention for all forward looking businesses to be focussed on GenAI as a potential approach to rapidly improve product and service outcomes. 
 
@@ -41,22 +41,30 @@ These principles are sensible and should be followed, but are not tactical in a 
 
 ## Governance and AI
 
-For a more practical governance and control framework I like the [approach presented by PWC](https://www.pwc.com/us/en/tech-effect/ai-analytics/managing-generative-ai-risks.html).  
+As we move from principles based guidance to more practical governance and control frameworks I like the [approach presented by PWC](https://www.pwc.com/us/en/tech-effect/ai-analytics/managing-generative-ai-risks.html) as a starting point.  
 
 ![PWC AI Governance](https://toobstar.github.io/images/pwc_ai_governance.png)
 
 It provides an overview of the key domains of governance and places them in context with each other:
 
 - Strategy
-  - Data & AI Ethics
-  - Policy & Regulation
 - Control
 - Responsible Practices
 - Core Practices
 
+The domain of risk control in AI have developed very quickly such that there is now an [ISO standard for AI Governance (38507)](https://www.iso.org/standard/56641.html) as well as a [NIST AI  Risk framework](https://www.nist.gov/itl/ai-risk-management-framework).  They are both (surprisingly) seemingly mature and well considered standards that would make sense to deployed in risk adverse organisations that have embraced AI.  
+
+## Risk Management
+
+Another practical and control focussed approach is to look at a vendor based view such as that presented by [Wiz](https://www.wiz.io/solutions/ai-spm).  At a [recent CISO conference](https://focusnetwork.co/cisoleaders.com.au/) Wiz presented an AI-pipeline with the various opportunities they have identified to apply risk controls.  
+
+![Wiz AI Risk Control](https://toobstar.github.io/images/wiz-ai-risk-pipeline.png)
+
+This is a very practical guide 
 
 
-In fact the domain of risk control in AI has developed very quickly such that there is now an [ISO standard for AI Governance (38507)](https://www.iso.org/standard/56641.html).  And most surprising of all is that it's pretty good!  More on that later. 
+
+
 
 
 
