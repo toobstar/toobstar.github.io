@@ -9,6 +9,8 @@ revision = 1
 
 ![Improving Gemini AI](https://toobstar.github.io/images/caveman_tree.jpg)
 
+
+
 ## Generative AI: Slow, then fast, then *really* fast
 
 Without providing a deep overview of AI the history and use of it is surprising long.  With early research and use happening alongside the establishment of computer science even from the 1950s and the likes of Alan Turing. The work back then focussed on rule-based systems and provided basic probabilistic models that could generate simple text.
@@ -16,6 +18,10 @@ Without providing a deep overview of AI the history and use of it is surprising 
 Through the 1990s and early 2000s neural networks and deep learning approaches developed to provide more practical commercial applications, but it will still at the fringe of engineering practice.  It has been in the last 10 years that the tranformer revolution and Generative Adversarial Networks (GANs) enabled AI to create realistic images and videos that we saw the use of AI become more central to engineering R&D efforts.  The demonstrations of capabilities were so impressive they could not be ignored. 
 
 And since 2020 with the widespread release of large scale language models (LLMs) based on the transformer architecture with the likes of GPT, DALL-E and Stable Diffusion we have seen the use of these become mainstream and the attention for all forward looking businesses to be focussed on GenAI as a potential approach to rapidly improve product and service outcomes. 
+
+## Governance and Risk in AI
+
+The journey of governance and risk control in AI may not have had the same explosion in usage and excitement that the most prominent services have generated, but the pathway from (1) principles of ethics and trust, to (2) governance frameworks, and now to (3) commercialised risk control service offerings has also been extremely fast and seeks to address the tidal wave of interest there is in this area.
 
 ## Risk Overview and Trust Frameworks
 
@@ -64,11 +70,14 @@ This is a very practical guide for how an organisation could detect, prevent and
 
 ![Emerging AI Risks](https://toobstar.github.io/images/ai-risk-examples.png)
 
-And finally I liked this model of risks in AI presented by [EY](https://www.ey.com/en_au/services/consulting/trusted-ai-platform) that places AI risks alongside more traditional risks in the application stack.  
+I also liked this model of risks in AI presented by [EY](https://www.ey.com/en_au/services/consulting/trusted-ai-platform) that places AI risks alongside more traditional risks in the application stack.  
 
 ![Modelling AI Risks from EY](https://toobstar.github.io/images/ey-ai-risk-model.png)
 
-There is value to be applied from past experience on this topic. 
+There is value to be applied from past experience on this topic. Finally and most comprehensively for a complete understanding of tactics and risks related to AI the go-to frameworks of [OWASP](https://genai.owasp.org) and [Mitre Attack](https://atlas.mitre.org) now incorporate AI overviews which are as detailed as you'd expect them to be.  
+
+![OWASP Top 10 AI Risks](https://toobstar.github.io/images/owasp_ai_top10.png)
+
 
 
 
