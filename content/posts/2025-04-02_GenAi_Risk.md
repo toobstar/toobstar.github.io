@@ -34,14 +34,14 @@ There are many obvious and well discussed potential issues that jump to mind wit
 
 Following widespread discussions that have occured on these topics and the direct personal experience that many have had with these issues many companies were early to establish trust policies that attempted to address these concerns.  [Atlassian is an example](https://www.atlassian.com/trust/responsible-tech-principles) of one such organisation that was proactive here.  Governments around the world have followed including here in Australia with the [8 AI Ethics Principles published](https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles/australias-ai-ethics-principles).  
 
-- **Human, societal and environmental wellbeing**: AI systems should benefit individuals, society and the environment.
-- **Human-centred values**: AI systems should respect human rights, diversity, and the autonomy of individuals.
-- **Fairness**: AI systems should be inclusive and accessible, and should not involve or result in unfair discrimination against individuals, communities or groups.
-- **Privacy protection and security**: AI systems should respect and uphold privacy rights and data protection, and ensure the security of data.
-- **Reliability and safety**: AI systems should reliably operate in accordance with their intended purpose.
-- **Transparency and explainability**: There should be transparency and responsible disclosure so people can understand when they are being significantly impacted by AI, and can find out when an AI system is engaging with them.
-- **Contestability**: When an AI system significantly impacts a person, community, group or environment, there should be a timely process to allow people to challenge the use or outcomes of the AI system.
-- **Accountability**: People responsible for the different phases of the AI system lifecycle should be identifiable and accountable for the outcomes of the AI systems, and human oversight of AI systems should be enabled.
+- **Human, Societal, and Environmental Wellbeing**: AI should benefit people and the environment
+- **Human-Centred Values**: AI should respect human rights, diversity, and autonomy
+- **Fairness**: AI should be inclusive and not create bias or discrimination
+- **Privacy Protection and Security**: AI must respect privacy and data security
+- **Reliability and Safety**: AI systems should be safe and operate reliably
+- **Transparency and Explainability**: AI decisions should be understandable
+- **Contestability**: People should be able to challenge AI decisions
+- **Accountability**: Those responsible for AI systems must be held accountable
 
 These are similar in nature to the [Australian Privacy Principles (APPs)](https://www.oaic.gov.au/privacy/australian-privacy-principles) although the APPs are built into the Australian Privacy Act so have a regulatory backing and are legally enforceable. The AI Ethics principles (for now) are  voluntary guidelines.   The principles themselves are sensible and should be followed, but are not tactical in a way that a regular business can employ with ease.
 
