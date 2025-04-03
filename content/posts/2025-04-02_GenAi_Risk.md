@@ -9,7 +9,7 @@ revision = 1
 
 ![Improving Gemini AI](https://toobstar.github.io/images/caveman_tree.jpg)
 
-​In the rapidly evolving landscape of Generative AI (GenAI) organisations face the dual challenge of harnessing innovative capabilities to maintain competitiveness and advance their business while effectively managing associated risks. I wanted to provide a concise overview of AI's progression and highlight the development of trust, governance and risk control measures in response to GenAI's widespread adoption. Key concerns such as data privacy, potential biases, and the accuracy of AI-generated content are examined, alongside the emergence of ethical principles and governance frameworks aimed at mitigating these risks. 
+​In the rapidly evolving landscape of Generative AI (GenAI) organisations face the dual challenge of harnessing innovative capabilities to maintain competitiveness and advance their business while effectively managing associated risks. I was interested to provide a concise overview of AI's progression and highlight the development of trust, governance and risk control measures in response to GenAI's widespread adoption. Key concerns such as data privacy, bias, and the correctness of AI-generated content are examined, alongside the emergence of ethical principles and governance frameworks aimed at mitigating these risks. The operational processes enabling GenAI also present many new cybersecurity risks which cannot be ignored. 
 
 ## Generative AI: Slow, then fast, then *really* fast
 
@@ -21,9 +21,9 @@ And since 2020 with the widespread release of large scale language models (LLMs)
 
 ## Governance and Risk in AI
 
-The journey of governance and risk control in AI may not have carried the same excitement that the most prominent services such as ChatGPT have generated, but the journey from (1) concerns about risk, to (2) principles of ethics and trust, to (3) governance frameworks, and recently to (4) commercialised risk control offerings has been extremely fast as attempts are made to address the tidal wave of interest in this domain.
+The journey of governance and risk control in AI may not have carried the same excitement that the most prominent services such as ChatGPT have generated, but the pathway from (1) concerns about risk, to (2) principles of ethics and trust, to (3) governance frameworks, and recently to (4) commercialised risk control offerings has been extremely fast as attempts are made to address the tidal wave of interest in this domain.
 
-## Risk Overview and Trust Frameworks
+## Risk and Trust Framework Overview
 
 There are many obvious and well discussed potential issues that jump to mind with GenAI that include:
 
@@ -55,8 +55,7 @@ It provides an overview of the key domains of governance and places them in cont
 
 - Strategy
 - Control
-- Responsible Practices
-- Core Practices
+- Responsible & Core Practices
 
 The domain of risk control in AI have developed very quickly such that there is now an [ISO standard for AI Governance (38507)](https://www.iso.org/standard/56641.html) as well as a [NIST AI  Risk framework (AI-600-1)](https://www.nist.gov/itl/ai-risk-management-framework).  They are both (surprisingly) mature and well considered standards that would make sense to be deployed in risk adverse organisations that have embraced AI.  
 
@@ -66,7 +65,7 @@ Although this is a highly fluid domain the sort of novel and emerging risks that
 
 ![Emerging AI Risks](https://toobstar.github.io/images/ai-risk-examples.png)
 
-A practical and control focussed approach is to look at a vendor based view such as that presented by [Wiz](https://www.wiz.io/solutions/ai-spm).  At another [recent CISO conference](https://focusnetwork.co/cisoleaders.com.au/) Wiz presented an AI-pipeline with the various opportunities they have identified to apply risk controls:  
+Another practical and control focussed approach is to look at a vendor based view such as that presented by [Wiz](https://www.wiz.io/solutions/ai-spm).  At a [recent CISO conference](https://focusnetwork.co/cisoleaders.com.au/) Wiz presented an AI-pipeline with the various opportunities they have identified to apply risk controls:  
 
 ![Wiz AI Risk Control](https://toobstar.github.io/images/wiz-ai-risk-pipeline.png)
 
@@ -76,14 +75,13 @@ I also liked this model of risks in AI presented by [EY](https://www.ey.com/en_a
 
 ![Modelling AI Risks from EY](https://toobstar.github.io/images/ey-ai-risk-model.png)
 
-There is value to be applied from past experience on this topic. Finally and most comprehensively for a complete understanding of tactics and risks related to AI the go-to frameworks of [OWASP](https://genai.owasp.org) and [Mitre Attack](https://atlas.mitre.org) now incorporate AI overviews which are as detailed as you'd expect them to be.  MIT is also maintaining an extensive database of [AI Risks](https://airisk.mit.edu) which is worth being aware of.
+There is value applying past experience on this topic and presenting AI risks alongside existing risks helps to integrate their treatment with existing processes.
+
+Finally and most comprehensively for a complete understanding of tactics and risks related to AI the go-to frameworks of [OWASP](https://genai.owasp.org) and [Mitre Attack](https://atlas.mitre.org) now incorporate AI overviews which are as detailed as you'd expect them to be.  MIT is also maintaining an extensive database of [AI Risks](https://airisk.mit.edu) which is worth being aware of as well.
 
 ![OWASP Top 10 AI Risks](https://toobstar.github.io/images/owasp_ai_top10.png)
 
 My focus with this article has been on *internal* risks from the use of AI.  There is significant evidence that the main "threat" from AI is from *external* bad-actors using AI to improve the effectiveness of their existing methods such as phishing using generated audio/video or harvested personal information to make their approach more credible.  For examples of exploited internal risks the examples I could find relate to privacy, data breaches or bias.  Many of the risks that have been documented above could be theoretical but it's comforting that they are being considered deeply and worth tracking these given the significant focus on this domain with such a broad variety of organisations.  
-
-
-
 
 
 
