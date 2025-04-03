@@ -9,7 +9,7 @@ revision = 1
 
 ![Improving Gemini AI](https://toobstar.github.io/images/caveman_tree.jpg)
 
-​In the rapidly evolving landscape of Generative AI (GenAI) organisations face the dual challenge of harnessing innovative capabilities to maintain competitiveness and advance their business while effectively managing associated risks. I was interested to provide a concise overview of AI's progression and highlight the development of trust, governance and risk control measures in response to GenAI's widespread adoption. Key concerns such as data privacy, bias, and the correctness of AI-generated content are examined, alongside the emergence of ethical principles and governance frameworks aimed at mitigating these risks. The operational processes enabling GenAI also present many new cybersecurity risks which cannot be ignored. 
+​In the rapidly evolving landscape of Generative AI (GenAI) organisations face the dual challenge of harnessing innovative capabilities to maintain competitiveness and advance their business while effectively managing associated risks. I was interested to provide a concise overview of AI's progression and highlight the development of trust, governance and risk control measures in response to GenAI's widespread adoption. Key concerns such as data privacy, bias, and the correctness of AI-generated content are considered, alongside the emergence of ethical principles and governance frameworks aimed at mitigating these risks. The operational processes enabling GenAI also present many new cybersecurity risks which cannot be ignored. 
 
 ## Generative AI: Slow, then fast, then *really* fast
 
