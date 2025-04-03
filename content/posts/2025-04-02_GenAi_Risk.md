@@ -1,5 +1,5 @@
 +++
-title = 'Emerging patterns in GenAI Governance and Risk Control'
+title = 'Emerging patterns of GenAI Governance and Risk Control'
 date = 2025-04-02T13:04:53+11:00
 draft = false
 tags = ['Risk', 'CIO', 'AI', 'GenAI', 'AI Governance', 'Risk Management']
@@ -21,14 +21,14 @@ And since 2020 with the widespread release of large scale language models (LLMs)
 
 ## Governance and Risk in AI
 
-The journey of governance and risk control in AI may not have carried the same excitement that the most prominent services such as Chat-GPT have generated, but the journey from (1) concerns about risk, to (2) principles of ethics and trust, to (3) governance frameworks, and recently to (4) commercialised risk control offerings has been extremely fast as attempts are made to address the tidal wave of interest in this domain.
+The journey of governance and risk control in AI may not have carried the same excitement that the most prominent services such as ChatGPT have generated, but the journey from (1) concerns about risk, to (2) principles of ethics and trust, to (3) governance frameworks, and recently to (4) commercialised risk control offerings has been extremely fast as attempts are made to address the tidal wave of interest in this domain.
 
 ## Risk Overview and Trust Frameworks
 
 There are many obvious and well discussed potential issues that jump to mind with GenAI that include:
 
 - data loss through the use of chat-interactions in an uncontrolled context
-- the output containing hallucinations or factual errors that are undetected 
+- output containing hallucinations or factual errors that are undetected 
 - privacy and copyright concerns with source data 
 - bias and discrimination that reflect and reinforce the views of problematic source material
 
@@ -43,7 +43,7 @@ Following widespread discussions that have occured on these topics and the direc
 - **Contestability**: People should be able to challenge AI decisions
 - **Accountability**: Those responsible for AI systems must be held accountable
 
-These are similar in nature to the [Australian Privacy Principles (APPs)](https://www.oaic.gov.au/privacy/australian-privacy-principles) although the APPs are built into the Australian Privacy Act so have a regulatory backing and are legally enforceable. The AI Ethics principles (for now) are  voluntary guidelines.   The principles themselves are sensible and should be followed, but are not tactical in a way that a regular business can employ with ease.
+These are similar in nature to the [Australian Privacy Principles (APPs)](https://www.oaic.gov.au/privacy/australian-privacy-principles) although the APPs are part of the Australian Privacy Act so have a regulatory backing which makes them legally enforceable. The AI Ethics principles (for now) are  voluntary guidelines in Australia.   The principles themselves are sensible and should be followed, but are not tactical in a way that a regular business can employ with ease.
 
 ## Governance and AI
 
@@ -66,11 +66,11 @@ Although this is a highly fluid domain the sort of novel and emerging risks that
 
 ![Emerging AI Risks](https://toobstar.github.io/images/ai-risk-examples.png)
 
-A practical and control focussed approach is to look at a vendor based view such as that presented by [Wiz](https://www.wiz.io/solutions/ai-spm).  At a [recent CISO conference](https://focusnetwork.co/cisoleaders.com.au/) Wiz presented an AI-pipeline with the various opportunities they have identified to apply risk controls:  
+A practical and control focussed approach is to look at a vendor based view such as that presented by [Wiz](https://www.wiz.io/solutions/ai-spm).  At another [recent CISO conference](https://focusnetwork.co/cisoleaders.com.au/) Wiz presented an AI-pipeline with the various opportunities they have identified to apply risk controls:  
 
 ![Wiz AI Risk Control](https://toobstar.github.io/images/wiz-ai-risk-pipeline.png)
 
-This is a very practical guide for how an organisation could detect, prevent and remediate risks that GenAI brings to operations. It brings together oversight on data, configuration and workloads specific to AI that would hope to manage emerging risks that would otherwise go by unmanaged.  Beyond the "posture management" type approach there are also tools emerging to address specific risks such as [IBM's AI Bias detection capability AIF 360](https://research.ibm.com/blog/ai-fairness-360). 
+This is a very practical guide for how an organisation could detect, prevent and remediate risks that GenAI brings to operations. It brings together oversight on data, configuration and workloads specific to AI that would hope to manage emerging risks that would otherwise go by unmanaged.  Beyond the "posture management" approach there are also tools emerging to address specific risks such as [IBM's AI Bias detection capability AIF 360](https://research.ibm.com/blog/ai-fairness-360). 
 
 I also liked this model of risks in AI presented by [EY](https://www.ey.com/en_au/services/consulting/trusted-ai-platform) that places AI risks alongside more traditional risks in the application stack:  
 
