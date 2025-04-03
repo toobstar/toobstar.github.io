@@ -2,14 +2,14 @@
 title = 'Emerging patterns in GenAI Governance and Risk Control'
 date = 2025-04-02T13:04:53+11:00
 draft = false
-tags = ['Risk', 'CIO', 'AI', 'GenAI']
+tags = ['Risk', 'CIO', 'AI', 'GenAI', 'AI Governance', 'Risk Management']
 revision = 1
 +++
 
 
 ![Improving Gemini AI](https://toobstar.github.io/images/caveman_tree.jpg)
 
-
+​In the rapidly evolving landscape of Generative AI (GenAI) organisations face the dual challenge of harnessing innovative capabilities to maintain competitiveness and advance their business while effectively managing associated risks. I wanted to provide a concise overview of AI's progression and highlight the development of trust, governance and risk control measures in response to GenAI's widespread adoption. Key concerns such as data privacy, potential biases, and the accuracy of AI-generated content are examined, alongside the emergence of ethical principles and governance frameworks aimed at mitigating these risks. 
 
 ## Generative AI: Slow, then fast, then *really* fast
 
@@ -81,7 +81,6 @@ There is value to be applied from past experience on this topic. Finally and mos
 ![OWASP Top 10 AI Risks](https://toobstar.github.io/images/owasp_ai_top10.png)
 
 My focus with this article has been on *internal* risks from the use of AI.  There is significant evidence that the main "threat" from AI is from *external* bad-actors using AI to improve the effectiveness of their existing methods such as phishing using generated audio/video or harvested personal information to make their approach more credible.  For examples of exploited internal risks the examples I could find relate to privacy, data breaches or bias.  Many of the risks that have been documented above could be theoretical but it's comforting that they are being considered deeply and worth tracking these given the significant focus on this domain with such a broad variety of organisations.  
-
 
 
 
