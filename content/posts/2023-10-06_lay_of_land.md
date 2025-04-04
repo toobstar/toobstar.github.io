@@ -1,5 +1,5 @@
 +++
-title = '2023 10 06_lay_of_land'
+title = '2023 10 06_lay_of_land (D)'
 date = 2023-10-13T10:16:19+11:00
 draft = true
 tags = ['timesheets', 'cost tracking', 'budgets']

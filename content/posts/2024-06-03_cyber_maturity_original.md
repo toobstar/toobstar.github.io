@@ -1,6 +1,6 @@
 +++
-title = 'Considering Cybersecurity and why a Framework Matters (draft)'
-date = 2025-01-03T13:01:19+10:00
+title = 'Considering Cybersecurity and why a Framework Matters (D)'
+date = 2023-01-03T13:01:19+10:00
 draft = true
 categories = []
 tags = ['CISO', 'Risk']
